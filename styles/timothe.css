@@ -1,0 +1,30 @@
+/*
+OYEZ OYEZ BRAVES GENS !
+Quelques recommandations si vous ne voulez pas finir tout nu sur la place publique :
+
+pour les titres principaux de la page : utiliser h2 et ajouter la class "titre_principal"
+pour les titres secondaires de la page : utiliser h3 et ajouter la class "titre_secondaire"
+pour le texte gris ajouter la class "texte_fonce"
+pour le texte blanc ajouter la class "texte_clair"
+pour le texte jaune ajouter la class "texte-jaune"
+
+pour les boutons jaunes utiliser <p class="bouton-jaune">texte<a href=""></a></p>
+
+pas de float ou de inline-bloc !
+les marges et les paddings des blocs principaux doivent être de 50px (vertical ET horizontal)
+les images doivent faire moins de 500Ko
+
+A BON ENTENDEUR, SALUT !
+*/
+
+/* ******************************************************************** */
+/* QUI SOMMES NOUS */
+/* ******************************************************************** */
+
+/* ******************************************************************** */
+/* OBJECTIFS */
+/* ******************************************************************** */
+
+/* ******************************************************************** */
+/* ARCHIVES */
+/* ******************************************************************** */
