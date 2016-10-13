@@ -164,9 +164,11 @@ header img {
 .main_categories_objectifs,
 .main_categories_actualites,
 .main_categories_don {
+/*
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
+*/
     text-align: center;
     box-shadow: 0px 3px 10px 0px #545350;
 }
@@ -210,21 +212,28 @@ footer {
 
 
 
-
-
-
-
-
-
 /* ******************************************************************** */
 /* MEDIA QUERIES */
 /* ******************************************************************** */
 
 
-
-
-
-
+@media (max-width:400px) {
+    .navigation,
+    .header,
+    .main_categories {
+        flex-flow: column wrap;
+    }
+    
+    .header_photo {
+        height: 20vh;
+    }
+    
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites {
+        width: 100%;
+    }
+}
 
 
 
