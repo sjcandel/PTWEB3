@@ -43,7 +43,7 @@ body {
     margin: 0 auto;
 }
 
-.wrapper-bleu { background-color: #dcdfec;}
+.wrapper-bleu { padding: 50px;  background-color: #dcdfec;}
 
 header, footer { background-color: #6885c8; }
 
