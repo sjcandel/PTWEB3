@@ -1,3 +1,229 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i';
+
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
+
+/*-----------------------------------------------------------------------------------
+TRUCS QUE J'AI RECUPERE DE SOPHIE
+-----------------------------------------------------------------------------------*/
+
+
+/* ******************************************************************** */
+/* UTILITAIRES */
+/* ******************************************************************** */
+
+
+
+
+/* ******************************************************************** */
+/* GENERALES */
+/* ******************************************************************** */
+*, *:after, *:before { box-sizing: border-box; }
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    background-color: #fdf4ed;
+}
+
+.wrapper,
+.wrapper-bleu {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.wrapper-bleu { padding: 50px;  background-color: #dcdfec;}
+
+header, footer { background-color: #6885c8; }
+
+
+
+/* ******************************************************************** */
+/* TYPOS */
+/* ******************************************************************** */
+
+.texte_clair, .texte_clair a { color: #fdf4ed; }
+.texte_fonce, .texte_fonce a { color: #545350; }
+.texte_jaune, .texte_jaune a { color: #e3a400; }
+
+
+.titre_principal,
+.titre_secondaire,
+.bouton,
+.main_categories_don,
+.header_photo_titre { font-family: 'Pacifico'; }
+
+.titre_principal { font-size: 3em; }
+.titre_secondaire { font-size: 1.5em; }
+
+a { text-decoration: none; }
+
+.bouton {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.bouton-jaune {
+    font-size: 1.5em;
+    height: ;
+    line-height: ;
+    text-align: center;
+    background-color: #f5ca5f;
+}
+
+.navigation li a {
+    padding-right: 20px;
+    border-right: 1px solid #fdf4ed;
+}
+
+.navigation li,
+.main_categories_titre {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.main_categories_icon {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.main_categories_don h3 {
+    font-size: 3em;
+}
+
+.footer_icons { margin-bottom: 20px; }
+.footer_icons ul {
+    width: 150px;
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+.footer_mentions { text-align: center; }
+
+.header_photo_titre {
+    font-size: 6em;
+    color: #6384c7;
+    background-color: rgba(253,244,237, 0.8);
+    height: 150px;
+    line-height: 150px;
+    margin-left: 300px;
+    padding-left: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.header_photo_stitre {
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
+    color: #e97763;
+    background-color: rgba(253,244,237, 0.8);
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 90px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+/* ******************************************************************** */
+/* PAGE D'ACCUEIL */
+/* ******************************************************************** */
+
+.navigation,
+.header,
+.main_categories,
+.footer_icons ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    flex-grow: 2;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 300px;
+}
+
+.main_categories_presentation,
+.main_categories_objectifs,
+.main_categories_actualites,
+.main_categories_don {
+/*
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+*/
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px #545350;
+}
+
+.main_categories_presentation,
+.main_categories_objectifs,
+.main_categories_actualites {
+    height: 300px;
+    width: 275px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main_categories_presentation,
+.main_categories_don { background-color: #6885c8; }
+.main_categories_objectifs { background-color: #e97763; }
+.main_categories_actualites { background-color: #f5ca5f; }
+
+.main_categories_don {
+    height: 100px;
+    width: 100%;
+    margin: 50px 0 50px 0;
+    padding: 20px;
+}
+
+footer {
+    padding-top: 50px;
+    height: 300px;
+}
+
+.header_photo {
+    height: 50vh;
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* ******************************************************************** */
+/* MEDIA QUERIES */
+/* ******************************************************************** */
+
+
+@media (max-width:400px) {
+    .navigation,
+    .header,
+    .main_categories {
+        flex-flow: column wrap;
+    }
+
+    .header_photo {
+        height: 20vh;
+    }
+
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites {
+        width: 100%;
+    }
+}
+
 /*
 OYEZ OYEZ BRAVES GENS !
 Quelques recommandations si vous ne voulez pas finir tout nu sur la place publique :
@@ -20,6 +246,46 @@ A BON ENTENDEUR, SALUT !
 /* ******************************************************************** */
 /* QUI SOMMES NOUS */
 /* ******************************************************************** */
+.wrapper-bleu{
+  display: flex;
+  flex-direction: column;
+}
+
+.cadre_jaune{
+  background-color: #f3c062;
+  width: 45%;
+  height: 450px;
+  margin-left: 5%;
+}
+
+.presentation_bas{
+  display: flex;
+  flex-direction: row;
+}
+
+.presentation_droite{
+  width: 50%;
+  height: 450px;
+}
+
+.image_presentation{
+  background-image: url(../images/presentation_equipe.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cadre_jaune span{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.texte_cadre_jaune{
+  margin: 20px;
+}
 
 /* ******************************************************************** */
 /* OBJECTIFS */
