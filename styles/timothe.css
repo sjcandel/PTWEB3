@@ -291,6 +291,30 @@ A BON ENTENDEUR, SALUT !
 /* OBJECTIFS */
 /* ******************************************************************** */
 
+.objectif_image_haut{
+  background-image: url(../images/objectif_1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 210px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.objectif_image_bas{
+  background-image: url(../images/objectif_2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 210px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cadre_jaune_objectif{
+  margin-top: 30px;
+}
+
 /* ******************************************************************** */
 /* ARCHIVES */
 /* ******************************************************************** */
