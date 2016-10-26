@@ -49,6 +49,22 @@ header, footer { background-color: #6885c8; }
 
 
 
+/*.dropdown_content {
+    display: none;
+    position: absolute;
+    top: 207px;
+    left: 550px;
+    padding: 10px;
+    background-color: #6885c8;
+    z-index: 1;
+}*/
+
+
+/*.navigation_dropdown:hover .dropdown_content {
+    display: block;
+}*/
+
+
 /* ******************************************************************** */
 /* TYPOS */
 /* ******************************************************************** */
@@ -89,7 +105,7 @@ a { text-decoration: none; }
 
 .navigation li,
 .main_categories_titre {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 
@@ -179,7 +195,7 @@ header img {
     height: 300px;
     width: 275px;
     margin-top: 50px;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
 }
 
 .main_categories_presentation,
@@ -217,23 +233,139 @@ footer {
 /* ******************************************************************** */
 
 
-@media (max-width:400px) {
-    .navigation,
-    .header,
+
+@media screen and (max-width: 930px){
+    .wrapper {
+        width: 600px;
+    }
+    
     .main_categories {
         flex-flow: column wrap;
     }
     
-    .header_photo {
-        height: 20vh;
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites,
+    .main_categories_don {
+        width: 100%;
     }
+    
+    .header_photo_titre {
+        margin-left: 0px;
+    }
+    
+    .header img {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .wrapper {
+        width: 100%;
+    }
+    
+    
     
     .main_categories_presentation,
     .main_categories_objectifs,
+    .main_categories_actualites,
+    .main_categories_don {
+        box-shadow: none;
+    }
+
+    .main_categories_presentation,
+    .main_categories_objectifs,
     .main_categories_actualites {
-        width: 100%;
+        margin-top: 0px;
+        padding: 40px 20px 20px 20px;
     }
 }
+
+
+
+
+/* ******************************************************************** */
+/* DROPDOWN */
+/* ******************************************************************** */
+
+
+
+/* ********** Niveau 1 ********** */
+
+
+ul.navigation ul li:hover a{
+    color: #545350;
+}
+
+ul.navigation li:last-child a {
+    border-right: none;
+}
+
+ul.navigation li.hover,
+ul.navigation li:hover {
+    position: relative;
+}
+
+.navigation_submenu {
+    z-index: 10;
+}
+
+
+/* ********** Niveau 2 ********** */
+
+ul.navigation ul {
+    width: 250px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+ul.navigation ul li {
+    background: #6885C8;
+    padding: 10px;
+}
+
+ul.navigation ul li:hover {
+    background: #acd0eb;
+}
+
+ul.navigation ul li a {
+    border-right: none;
+    width: 100%;
+}
+
+
+/* ********** Niveau 3 ********** */
+
+ul.navigation ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.navigation li:hover > ul {
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
