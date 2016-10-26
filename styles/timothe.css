@@ -96,17 +96,15 @@ A BON ENTENDEUR, SALUT !
 }
 
 .block-hidden {
-  height: 100px;
+  height: 300px;
   display: none;
-  background: #FFA726;
 }
 
 .block-visible {
   height: 40px;
   line-height: 40px;
   cursor: pointer;
-  background: #FF9800;
-  color: #FFFFFF;
+  background: #f3c062;
+  color: #e3a400;
   text-align: center;
-  text-transform: uppercase;
 }

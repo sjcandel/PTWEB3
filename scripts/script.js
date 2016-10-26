@@ -34,7 +34,6 @@ $(document).ready(function() {
   var blockState = "closed";
 
   $('.block-visible').click(function() {
-    console.log ("♦");
 
     if (blockState=="closed"){
       $('.block-hidden').slideDown();
