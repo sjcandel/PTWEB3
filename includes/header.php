@@ -6,4 +6,5 @@
     <link rel="stylesheet" href="../styles/font-awesome-4.6.3/css/font-awesome.css">
     <link rel="stylesheet" href="../styles/animate.css"> 
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
 </head>

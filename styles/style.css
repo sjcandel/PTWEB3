@@ -35,6 +35,8 @@ body {
     font-family: 'Source Sans Pro';
     font-size: 1em;
     background-color: #fdf4ed;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .wrapper,
@@ -43,26 +45,16 @@ body {
     margin: 0 auto;
 }
 
-.wrapper-bleu { padding: 50px;  background-color: #dcdfec;}
+.wrapper-bleu { 
+    display: flex;
+    flex-direction: column;
+    padding: 50px;  
+    background-color: #dcdfec;
+}
 
 header, footer { background-color: #6885c8; }
 
 
-
-/*.dropdown_content {
-    display: none;
-    position: absolute;
-    top: 207px;
-    left: 550px;
-    padding: 10px;
-    background-color: #6885c8;
-    z-index: 1;
-}*/
-
-
-/*.navigation_dropdown:hover .dropdown_content {
-    display: block;
-}*/
 
 
 /* ******************************************************************** */
@@ -114,9 +106,7 @@ a { text-decoration: none; }
     margin-bottom: 0.5em;
 }
 
-.main_categories_don h3 {
-    font-size: 3em;
-}
+.main_categories_don h3 {font-size: 3em;}
 
 .footer_icons { margin-bottom: 20px; }
 .footer_icons ul {
@@ -152,6 +142,64 @@ a { text-decoration: none; }
     margin-left: 100px;
 }
 
+.chapeau {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* ******************************************************************** */
+/* NAVIGATION */
+/* ******************************************************************** */
+
+nav { 
+    flex-grow: 2;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+/* ***** Niveau 1 ***** */
+
+ul.navigation ul li:hover a{color: #545350;}
+ul.navigation li:last-child a {border-right: none;}
+
+ul.navigation li.hover,
+ul.navigation li:hover {
+    position: relative;
+}
+.navigation_submenu {z-index: 10;}
+
+
+/* ***** Niveau 2 ***** */
+ul.navigation ul {
+    width: 250px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+ul.navigation ul li {
+    background: #6885C8;
+    padding: 10px;
+}
+
+ul.navigation ul li:hover {background: #acd0eb;}
+
+ul.navigation ul li a {
+    border-right: none;
+    width: 100%;
+}
+
+
+/* ***** Niveau 3 ***** */
+ul.navigation ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.navigation li:hover > ul {visibility: visible;}
+
+
 /* ******************************************************************** */
 /* PAGE D'ACCUEIL */
 /* ******************************************************************** */
@@ -166,25 +214,12 @@ a { text-decoration: none; }
     align-items: center;
 }
 
-nav { 
-    flex-grow: 2;
-    align-self: flex-end;
-    margin-bottom: 20px;
-}
-
-header img {
-    width: 300px;
-}
+header img {width: 300px;}
 
 .main_categories_presentation,
 .main_categories_objectifs,
 .main_categories_actualites,
 .main_categories_don {
-/*
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-*/
     text-align: center;
     box-shadow: 0px 3px 10px 0px #545350;
 }
@@ -234,119 +269,10 @@ footer {
 
 
 
-@media screen and (max-width: 930px){
-    .wrapper {
-        width: 600px;
-    }
-    
-    .main_categories {
-        flex-flow: column wrap;
-    }
-    
-    .main_categories_presentation,
-    .main_categories_objectifs,
-    .main_categories_actualites,
-    .main_categories_don {
-        width: 100%;
-    }
-    
-    .header_photo_titre {
-        margin-left: 0px;
-    }
-    
-    .header img {
-        margin: 0 auto;
-    }
-}
-
-
-@media screen and (max-width: 600px){
-    .wrapper {
-        width: 100%;
-    }
-    
-    
-    
-    .main_categories_presentation,
-    .main_categories_objectifs,
-    .main_categories_actualites,
-    .main_categories_don {
-        box-shadow: none;
-    }
-
-    .main_categories_presentation,
-    .main_categories_objectifs,
-    .main_categories_actualites {
-        margin-top: 0px;
-        padding: 40px 20px 20px 20px;
-    }
-}
 
 
 
 
-/* ******************************************************************** */
-/* DROPDOWN */
-/* ******************************************************************** */
-
-
-
-/* ********** Niveau 1 ********** */
-
-
-ul.navigation ul li:hover a{
-    color: #545350;
-}
-
-ul.navigation li:last-child a {
-    border-right: none;
-}
-
-ul.navigation li.hover,
-ul.navigation li:hover {
-    position: relative;
-}
-
-.navigation_submenu {
-    z-index: 10;
-}
-
-
-/* ********** Niveau 2 ********** */
-
-ul.navigation ul {
-    width: 250px;
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-}
-
-ul.navigation ul li {
-    background: #6885C8;
-    padding: 10px;
-}
-
-ul.navigation ul li:hover {
-    background: #acd0eb;
-}
-
-ul.navigation ul li a {
-    border-right: none;
-    width: 100%;
-}
-
-
-/* ********** Niveau 3 ********** */
-
-ul.navigation ul ul {
-    left: 100%;
-    top: 0;
-}
-
-ul.navigation li:hover > ul {
-    visibility: visible;
-}
 
 
 

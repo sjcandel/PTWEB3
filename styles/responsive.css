@@ -1,0 +1,53 @@
+/* ******************************************************************** */
+/* TABLETTE */
+/* ******************************************************************** */
+
+@media screen and (max-width: 930px){
+    
+    .wrapper {width: 600px;}
+    .wrapper-bleu {
+        width: 100vw;
+        flex-direction: row;
+    }
+    .main_categories {
+        flex-flow: column wrap;
+    }
+    
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites,
+    .main_categories_don {
+        width: 100%;
+    }
+    
+    .header_photo_titre {margin-left: 0px;}
+    .header img {margin: 0 auto;}
+    
+    .presentation_bas {}
+}
+
+
+
+/* ******************************************************************** */
+/* SMARTPHONE */
+/* ******************************************************************** */
+
+@media screen and (max-width: 600px){
+    .wrapper {
+        width: 100%;
+    }
+    
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites,
+    .main_categories_don {
+        box-shadow: none;
+    }
+
+    .main_categories_presentation,
+    .main_categories_objectifs,
+    .main_categories_actualites {
+        margin-top: 0px;
+        padding: 40px 20px 20px 20px;
+    }
+}

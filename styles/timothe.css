@@ -20,11 +20,6 @@ A BON ENTENDEUR, SALUT !
 /* ******************************************************************** */
 /* QUI SOMMES NOUS */
 /* ******************************************************************** */
-.wrapper-bleu{
-  display: flex;
-  flex-direction: column;
-}
-
 .cadre_jaune{
   background-color: #f3c062;
   width: 45%;
@@ -70,8 +65,8 @@ A BON ENTENDEUR, SALUT !
   margin-top: 30px;
 }
 
-.objectif_image_haut{
-  background-image: url(../images/objectif_1.jpg);
+.objectif_image_haut,
+.objectif_image_bas {
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -80,14 +75,12 @@ A BON ENTENDEUR, SALUT !
   margin-bottom: 30px;
 }
 
-.objectif_image_bas{
+.objectif_image_haut {
+  background-image: url(../images/objectif_1.jpg);
+}
+
+.objectif_image_bas {
   background-image: url(../images/objectif_2.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 210px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 
