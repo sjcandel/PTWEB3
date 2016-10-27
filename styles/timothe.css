@@ -94,6 +94,23 @@ p{
   margin-top: 10px;
 }
 
+.titre-secondaire{
+  font-weight: bold;
+  font-size: 22px;
+  color: #545350;
+}
+
+#barre_recherche{
+  background-color: white;
+  height: 25px;
+}
+
+#champs{
+  border: none;
+  width: 97%;
+  height: 25px
+}
+
 #filters{
   display: flex;;
 }
@@ -105,13 +122,11 @@ p{
 
 #filter em{
   font-weight: bold;
-  background-color: white;
 }
-
-input
 
 .block {
   margin: auto;
+  margin-top: 35px;
 }
 
 .block-hidden {
@@ -126,4 +141,5 @@ input
   background: #f3c062;
   color: #e3a400;
   text-align: center;
+  margin-top: 10px;
 }
