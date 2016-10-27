@@ -90,19 +90,37 @@ A BON ENTENDEUR, SALUT !
 /* ARCHIVES */
 /* ******************************************************************** */
 
+p{
+  margin-top: 10px;
+}
+
+#filters{
+  display: flex;;
+}
+
+#filters li, #filters em{
+  flex-direction: row;
+  margin: 10px 10px 0 0;
+}
+
+#filter em{
+  font-weight: bold;
+
+}
 
 .block {
   margin: auto;
 }
 
 .block-hidden {
-  height: 300px;
+  height: 500px;
   display: none;
 }
 
 .block-visible {
-  height: 40px;
-  line-height: 40px;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
   cursor: pointer;
   background: #f3c062;
   color: #e3a400;
