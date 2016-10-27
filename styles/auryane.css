@@ -21,11 +21,110 @@ A BON ENTENDEUR, SALUT !
 /* ******************************************************************** */
 /* ACTUALITES */
 /* ******************************************************************** */
+p{
+	line-height: 20px;
+}
+
+.titre_principal{
+	color: rgb(84,83,80);
+}
+
+.titre_sec{
+	color: rgb(84,83,80);
+	font-size: 1.5em;
+	font-weight: 900;
+}
+
+.flex_contain{
+	display: flex;
+	margin-top: 50px;
+}
+
+.flex_actu{
+	flex-direction: row;
+	height: 245px;
+	position: relative;
+}
+
+.actu_text{
+	margin-left: 40px;
+}
+
+.end{
+		position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.resume{
+	margin-top: 40px;
+}
+
 
 /* ******************************************************************** */
 /* GALERIE */
 /* ******************************************************************** */
+.controlplay {
+    
+}
 
+.flex_multi{
+	display: flex;
+	flex-wrap: wrap;
+	width: 930px;
+}
+
+.flex_vid{
+	margin-top: 50px;
+	flex-direction: column;
+	width: 400px;
+}
+
+.titre_vid{
+	padding-top: 20px;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.right{
+	margin-left: 30px;
+}
+
+.text{
+	margin-top: 10px;
+}
 /* ******************************************************************** */
 /* CONTACT */
 /* ******************************************************************** */
+.form-control{
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.4;
+color: #555;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.flex_contact{
+	display: flex;
+}
+
+.flex_itm{
+	margin-top: 50px;
+	width: 400px;
+}
+
+.flex_don{
+	background-color: rgb(245, 202, 95);
+	margin-left: 30px;
+	padding: 20px;
+}
+
+.titre_don{
+	color: rgb(213,141,0);
+}
