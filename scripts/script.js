@@ -31,19 +31,10 @@ $(function(){
 });
 
 $(document).ready(function() {
-  var blockState = "closed";
 
-  $('.block-visible').click(function() {
-
-    if (blockState=="closed"){
-      $('.block-hidden').slideDown();
-      blockState = "open";
-      }
-    else {
-      $('.block-hidden').slideUp();
-      blockState = "closed";
-      }
-  })
+  $(".block-visible").click(function() {
+     $(this).siblings(".block-hidden").slideToggle();
+  });  
 });
 
 $(function () {

@@ -105,15 +105,16 @@ p{
 
 #filter em{
   font-weight: bold;
-
+  background-color: white;
 }
+
+input
 
 .block {
   margin: auto;
 }
 
 .block-hidden {
-  height: 500px;
   display: none;
 }
 
