@@ -37,6 +37,9 @@
               <div class="block archives 2016 nathan" data-cat="2016 nathan">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">A la découverte de l'automne, en joëlette...</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 16 OCTOBRE 2016
+                  </p>
                   <p class="texte_fonce">
                   En ce dimanche 16 octobre, dans la brume d’abord, puis par un
                   beau soleil, Mathéo, Mathilde, Nael et  Orela ont fait la
@@ -84,6 +87,9 @@
               <div class="block archives 2016 vie" data-cat="2016 vie">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">Kombissiri au cinéma le VOX</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 4 OCTOBRE 2016
+                  </p>
                   <p class="texte_fonce">
                     Réservez le 12 octobre pour le film documentaire de  Kombissiri.
                   </p>
@@ -144,6 +150,9 @@
               <div class="block archives 2016 nathan" data-cat="2016 nathan">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">Première séance de jeux à l’orangerie</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 1 OCTOBRE 2016
+                  </p>
                   <p class="texte_fonce">
                     Ils étaient cinq à répondre présents à l’appel de  Clément et Nicolas. Dion, Mathéo, Nael, Nathan et Orela.
                     Prêts à vouloir apprendre à se servir du GPS comme leur champion, comme leurs modèles.
@@ -168,6 +177,9 @@
               <div class="block archives 2016 vie" data-cat="2016 vie">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">« Vue du cœur » fait sa rentrée: le calendrier</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 20 SEPTEMBRE 2016
+                  </p>
                   <p class="texte_fonce">
                   En ce mois de la rentrée, l’actualité de Vue du cœur et de ses partenaires est bien chargée.
                   </p>
@@ -203,6 +215,9 @@
               <div class="block archives 2016 vie" data-cat="2016 vie">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">La charte de vue du coeur</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 20 SEPTEMBRE 2016
+                  </p>
                   <p class="texte_fonce">
                   Vue du cœur s’est dotée d’une charte que voilà ci-dessous
                   </p>
@@ -261,6 +276,9 @@
               <div class="block archives 2016 sport" data-cat="2016 sport">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">De Metzeral à Saverne, en toute autonomie et en 8 jours</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 20 AOÛT 2016
+                  </p>
                   <p class="texte_fonce">
                   Ils sont cinq au départ ce  samedi 13 août, 5 mal et non-voyants. Ils s’appellent Samuel, Timothée, Cyprien Nicolas et Clément, il y a aussi…….leurs cannes blanches tout terrain  et leur GPS.
                   </p>
@@ -296,6 +314,9 @@
               <div class="block archives 2016 nathan" data-cat="2016 nathan">
                 <div class="partie_visible">
                   <h3 class="titre-secondaire">Une rencontre, l’aboutissement d’un beau projet d’année !</h3>
+                  <p class="archives_date">
+                    BY CLARISSE · 3 JUILLET 2016
+                  </p>
                   <p class="texte_fonce">
                   En ce vendredi matin 1 juillet, à l’école élémentaire de Weitbruch, les élèves du CP de Madame Christophe  étaient en émoi et bien impatients de voir arriver leurs invités du jour, Caroline, Hamza, et Mathéo.
                   </p>
