@@ -1,3 +1,11 @@
+#open,
+#close {
+    display: none;
+}
+
+
+
+
 /*-----------------------------------------------------------------------------------
 1.Utilitaires
 
@@ -46,15 +54,15 @@ body {
 }
 
 .wrapper-bleu { 
+/*
     display: flex;
     flex-direction: column;
+*/
     padding: 50px;  
     background-color: #dcdfec;
 }
 
 header, footer { background-color: #6885c8; }
-
-
 
 
 /* ******************************************************************** */

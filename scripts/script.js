@@ -1,10 +1,50 @@
-//$(document).ready(function () {
-//    $('.navigation_dropdown').mouseover(function () {
-//        console.log("♦");
-//        $('.dropdown_content').css("display", "block");
-//    })
-//});
+/* ******************************************************************** */
+/* menu hamburger */
+/* ******************************************************************** */
 
+
+
+
+
+
+
+
+$(document).ready(function () {
+    var menu = $('#menu');
+    var ouvrir = $('#open');
+    var fermer = $('#close');    
+    
+    if ($(window).width() > 600) {
+        fermer.hide();
+        ouvrir.hide();
+    }
+    
+    else {
+        fermer.hide();
+        menu.hide();
+        
+        ouvrir.click(function () {
+            menu.slideToggle("slow", function () {
+                ouvrir.hide();
+                fermer.show();
+            });
+        });
+        fermer.click(function () {
+            menu.slideToggle("slow", function () {
+                fermer.hide();
+                ouvrir.show();
+            });
+        });
+    }
+    
+});
+
+
+
+
+/* ******************************************************************** */
+/* menu dropdown */
+/* ******************************************************************** */
 
 $(function(){
 
@@ -30,6 +70,10 @@ $(function(){
 
 });
 
+    
+/* ******************************************************************** */
+/* onglets coulissants "lire la suite" */
+/* ******************************************************************** */
 $(document).ready(function() {
 
   $(".block-visible").click(function() {

@@ -24,8 +24,9 @@ A BON ENTENDEUR, SALUT !
 .cadre_jaune{
   background-color: #f3c062;
   width: 45%;
-  height: 450px;
-  margin-left: 5%;
+/*  height: 450px;*/
+  padding: 20px;
+/*  margin-left: 5%;*/
 }
 
 .cadre_jaune span{
@@ -33,18 +34,17 @@ A BON ENTENDEUR, SALUT !
   font-weight: bold;
 }
 
-.texte_cadre_jaune{
-  margin: 20px;
-}
+
 
 .presentation_bas{
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .presentation_droite{
   width: 50%;
-  height: 450px;
+/*  height: 450px;*/
 }
 
 .image_presentation{
@@ -90,7 +90,7 @@ A BON ENTENDEUR, SALUT !
 /* ARCHIVES */
 /* ******************************************************************** */
 
-p{
+.wrapper-bleu p{
   margin-top: 10px;
 }
 
