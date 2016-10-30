@@ -67,22 +67,26 @@
                         <div class="cadre_jaune">
                             <div class="texte_cadre_jaune texte_clair">
                                 <h3 class="titre_secondaire texte_jaune">Nos membres</h3>
-
-                                <p> <span>Nom Prenom</span> - Fonction</p>
-                                <p>06.00.00.00.00</p>
-                                <p>adresse@mail.com</p>
-
-                                <p> <span>Nom Prenom</span> - Fonction</p>
-                                <p>06.00.00.00.00</p>
-                                <p>adresse@mail.com</p>
-
-                                <p> <span>Nom Prenom</span> - Fonction</p>
-                                <p>06.00.00.00.00</p>
-                                <p>adresse@mail.com </p>
-
-                                <p> <span>Nom Prenom</span> - Fonction</p>
-                                <p>06.00.00.00.00</p>
-                                <p>adresse@mail.com</p>
+                                <ul class="membres">
+                                  <li> <span>Nom Prenom</span> - Fonction</li>
+                                  <li>06.00.00.00.00</li>
+                                  <li>adresse@mail.com</li>
+                                </ul>
+                                <ul class="membres">
+                                  <li> <span>Nom Prenom</span> - Fonction</li>
+                                  <li>06.00.00.00.00</li>
+                                  <li>adresse@mail.com</li>
+                                </ul>
+                                <ul class="membres">
+                                  <li> <span>Nom Prenom</span> - Fonction</li>
+                                  <li>06.00.00.00.00</li>
+                                  <li>adresse@mail.com </li>
+                                </ul>
+                                <ul class="membres">
+                                  <li> <span>Nom Prenom</span> - Fonction</li>
+                                  <li>06.00.00.00.00</li>
+                                  <li>adresse@mail.com</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
