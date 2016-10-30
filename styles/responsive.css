@@ -48,36 +48,11 @@
         margin-top: 0px;
         padding: 40px 20px 20px 20px;
     }
-
-    nav ul {
-        height: 0;
-        overflow: hidden;
-        transition: height 0.5s;
-    }
-    nav ul.open {
-        height: 12em;
-    }
-
-    #open,
-    #close {
-        color: #fdf4ed;
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        top: 2vh;
-        right: 8vw;
-        font-size: 2em;
-    }
-
-    #open {
-        display: block;}
-    
-    
     .presentation_bas {
         display: block;
     }
     .cadre_jaune,
     .presentation_droite {width: 100%;}
-    .cadre_jaune {margin-top: 50px;}
+    .cadre_jaune {margin-top: 30px;}
 
 }

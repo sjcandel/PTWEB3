@@ -3,41 +3,22 @@
 /* ******************************************************************** */
 
 
-
-
-
-
-
-
-$(document).ready(function () {
-    var menu = $('#menu');
-    var ouvrir = $('#open');
-    var fermer = $('#close');    
+$(document).ready(function(event) {
+    $('#open').click(function() {
+        $('#menu').css("display", "block");
+        $('#open').css("display", "none");
+        $('#close').css("display", "block");
+    });
     
-    if ($(window).width() > 600) {
-        fermer.hide();
-        ouvrir.hide();
-    }
-    
-    else {
-        fermer.hide();
-        menu.hide();
-        
-        ouvrir.click(function () {
-            menu.slideToggle("slow", function () {
-                ouvrir.hide();
-                fermer.show();
-            });
-        });
-        fermer.click(function () {
-            menu.slideToggle("slow", function () {
-                fermer.hide();
-                ouvrir.show();
-            });
-        });
-    }
-    
-});
+    $('#close').click(function() {
+        $('#menu').css("display", "none");
+        $('#open').css("display", "block");
+        $('#close').css("display", "none");
+    });
+    event.preventDefault();
+}); 
+
+
 
 
 

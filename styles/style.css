@@ -1,7 +1,89 @@
 #open,
 #close {
     display: none;
+    z-index: 11;
 }
+
+@media screen and (max-width: 600px){
+    nav {
+        display: none;
+        position: absolute;
+        top:0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #6885C8;
+        z-index: 10;
+        padding: 30px;
+    }
+    
+    nav ul li{
+        width: 100%;
+        height: 50px;
+    }
+    ul.navigation li a {border-right: none;}
+    #open,
+    #close {
+        color: #fdf4ed;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        top: 2vh;
+        right: 8vw;
+        font-size: 2em;
+    }
+    #open {display: block};
+}
+
+
+nav { 
+    flex-grow: 2;
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+
+/* ***** Niveau 1 ***** */
+
+ul.navigation ul li:hover a{color: #545350;}
+ul.navigation li:last-child a {border-right: none;}
+
+ul.navigation li.hover,
+ul.navigation li:hover {
+    position: relative;
+}
+.navigation_submenu {z-index: 10;}
+
+
+/* ***** Niveau 2 ***** */
+ul.navigation ul {
+    width: 250px;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+ul.navigation ul li {
+    background: #6885C8;
+    padding: 10px;
+}
+
+ul.navigation ul li:hover {background: #acd0eb;}
+
+ul.navigation ul li a {
+    border-right: none;
+    width: 100%;
+}
+
+
+/* ***** Niveau 3 ***** */
+ul.navigation ul ul {
+    left: 100%;
+    top: 0;
+}
+
+ul.navigation li:hover > ul {visibility: visible;}
+
 
 
 
@@ -159,53 +241,7 @@ a { text-decoration: none; }
 /* NAVIGATION */
 /* ******************************************************************** */
 
-nav { 
-    flex-grow: 2;
-    align-self: flex-end;
-    margin-bottom: 20px;
-}
 
-/* ***** Niveau 1 ***** */
-
-ul.navigation ul li:hover a{color: #545350;}
-ul.navigation li:last-child a {border-right: none;}
-
-ul.navigation li.hover,
-ul.navigation li:hover {
-    position: relative;
-}
-.navigation_submenu {z-index: 10;}
-
-
-/* ***** Niveau 2 ***** */
-ul.navigation ul {
-    width: 250px;
-    visibility: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-}
-
-ul.navigation ul li {
-    background: #6885C8;
-    padding: 10px;
-}
-
-ul.navigation ul li:hover {background: #acd0eb;}
-
-ul.navigation ul li a {
-    border-right: none;
-    width: 100%;
-}
-
-
-/* ***** Niveau 3 ***** */
-ul.navigation ul ul {
-    left: 100%;
-    top: 0;
-}
-
-ul.navigation li:hover > ul {visibility: visible;}
 
 
 /* ******************************************************************** */
