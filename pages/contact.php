@@ -9,7 +9,6 @@
 
 
         <!--MAIN-->
-         <!--MAIN-->
         <main>
            <div class="wrapper-bleu">
                 <!-- insérez votre contenu ici -->
@@ -32,23 +31,75 @@
                             <textarea type="text" class="form-control" name="message" placeholder="Message..."></textarea>
                         </div>
                     <!--</div>-->
-                    <button type="submit" class="btn btn-default">Envoyer</button>
+                    <button type="submit" class="butt_form">Envoyer</button>
                     </form>
                 </div>
 
                 <div class="flex_itm flex_don">
                     <h3 class="titre_secondaire titre_don">Faire un don</h3>
-                    <p class="texte_clair"> Votre solidarité nous est indispensable ! </p>
-                    <p class="don texte_clair"> 30€ </p>
-                    <p class="don texte_clair"> 50€ </p>
-                    <p class="don texte_clair"> 75€ </p>
-                    <p class="don texte_clair"> 100€ </p>
-                    <p class="don texte_clair"> autre montant </p>
-                    <button class="texte_clair">DONNER</button>
+                    <p class="texte_clair texte"> Votre solidarité nous est indispensable ! </p>
+                        <p class="texte_clair flex_texte"> 30 € </p>
+                        <p class="texte_clair flex_texte"> 50 € </p>
+                        <p class="texte_clair flex_texte"> 75 € </p>
+                        <p class="texte_clair flex_texte"> 100 € </p>
+                        <p class="texte_clair flex_texte"> autre montant </p>
+                    <button class="texte_clair butt_texte">donner</button>
                 </div>
             </div>
 
             <h2 class="titre_principal"> Nos partenaires </h2>
+
+            <div class="part">
+                <div class="flex_part">
+                   <div class="div_part"> 
+                        <img src="../images/part1.jpg">
+                    </div>
+                    <div class="div_part">
+                        <div class="part_texte">
+                        <p class="nom_part">Osons La Différence</p>
+                        <p class="lien"> <a href="http://www.osonsladifference.org/" target="_blank">http://www.osonsladifference.org/</a> </p>
+                        </div>
+                   </div> 
+                </div>
+               
+                <div class="flex_part">
+                   <div class="div_part"> 
+                        <img src="../images/part2.jpg">
+                    </div>
+                    <div class="div_part">
+                        <div class="part_texte">
+                        <p class="nom_part">Vue d'ensemble</p>
+                        <p class="lien"> <a href="http://www.vue-densemble.com/" target="_blank">http://www.vue-densemble.com/</a> </p>
+                        </div>
+                   </div> 
+                </div>
+
+                <div class="flex_part">
+                   <div class="div_part"> 
+                        <img src="../images/part3.jpg">
+                    </div>
+                   <div class="div_part">
+                        <div class="part_texte">
+                        <p class="nom_part">Yvoir</p>
+                        <p class="lien"> <a href="http://parispekin.yvoir.free.fr/index.htm" target="_blank">http://parispekin.yvoir.free.fr/index.htm/</a> </p>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="flex_part">
+                   <div class="div_part"> 
+                        <img src="../images/part4.jpg">
+                    </div>
+                    <div class="div_part">
+                        <div class="part_texte">
+                        <p class="nom_part">Quatz Trotters</p>
+                        <p class="lien"> <a href="https://www.facebook.com/Quatz-Trotters-167437973276193/" target="_blank">https://www.facebook.com/Quatz-Trotters-167437973276193/</a> </p>
+                        </div>
+                   </div>
+                </div>
+
+            </div>
+
            </div> 
         </main>
 
