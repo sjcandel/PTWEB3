@@ -8,7 +8,7 @@
         <?php include("../includes/nav.php"); ?>
 
 
-        <!--MAIN-->
+       <!--MAIN-->
         <main>
            <div class="wrapper-bleu">
             <h2 class="titre_principal"> Actualités de l'association </h2>

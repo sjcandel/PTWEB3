@@ -13,6 +13,12 @@
            <div class="wrapper-bleu">
            <h2 class="titre_principal"> Galerie multimédia </h2>
                 <!-- Barre de recherche -->
+                <div id="barre_recherche" class="recherche">
+                <form method="post" action="">
+                  <em id="clickme" class="fa fa-search"></em>
+                  <input id="champs" class="champ" type="search" placeholder="Rechercher"/>
+                </form>
+              </div>
                 <!-- Filtrer par année 2012 | 2013 | 2014 | 2015 | 2016 -->
                 <!-- Filtrer par thème vie de l'association | sport | Nathan -->
                 <div class="flex_multi">
