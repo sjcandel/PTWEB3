@@ -1,6 +1,8 @@
 <header>
     <div class="header wrapper"> <img src="../images/logo.png" />
-        <nav>
+        <div id="open" class="mobile_only"><em class="fa fa-bars"></em></div>
+        <div id="close" class="mobile_only"><em class="fa fa-times"></em></div>
+        <nav id="menu">
             <ul class="navigation texte_clair">
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="#">L'association</a>

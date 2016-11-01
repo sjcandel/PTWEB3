@@ -10,11 +10,12 @@
 
         <!--MAIN-->
         <main>
-           <div class="wrapper-bleu">
+           <div class="wrapper-bleu texte_fonce">
                 <!-- insérez votre contenu ici -->
             <h2 class="titre_principal"> Contacter l'association </h2>
-            <div class="flex_contact">
-                <div class="flex_itm">
+            
+            <div class="flex_contain">
+                <div class="flex_item">
                     <form action="reception.php" method="post">
                     <!--<div class="flex_itm">-->
                         <div class="">
@@ -35,7 +36,7 @@
                     </form>
                 </div>
 
-                <div class="flex_itm flex_don">
+                <div class="flex_item flex_don">
                     <h3 class="titre_secondaire titre_don">Faire un don</h3>
                     <p class="texte_clair texte"> Votre solidarité nous est indispensable ! </p>
                         <p class="texte_clair flex_texte"> 30 € </p>

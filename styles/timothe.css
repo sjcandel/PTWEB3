@@ -136,7 +136,9 @@ A BON ENTENDEUR, SALUT !
   display: none;
 }
 
-.block-visible {
+.bouton-jaune,
+.bouton-jaune-smart,
+.controlplay{
   height: 30px;
   line-height: 30px;
   width: 100px;

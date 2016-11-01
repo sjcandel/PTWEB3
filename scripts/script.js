@@ -1,21 +1,70 @@
 /* ******************************************************************** */
+/* tri des articles */
+/* ******************************************************************** */
+
+$(document).ready(function() {
+    
+   
+    $(function () {
+    var filterList = {
+        init: function () {
+            $('#archivesList').mixItUp({
+                selectors: {
+                    target: '.archives', 
+                    filter: '.filter'
+                }, 
+                load: {
+                    filter: '.2016'
+                }
+            });
+        }
+    };
+    // Run the show!
+    filterList.init();
+});
+});
+
+
+
+/* ******************************************************************** */
 /* menu hamburger */
 /* ******************************************************************** */
 
 
-$(document).ready(function(event) {
-    $('#open').click(function() {
-        $('#menu').css("display", "block");
-        $('#open').css("display", "none");
-        $('#close').css("display", "block");
-    });
+$(document).ready(function() {
+//    $('#open').click(function() {
+//        $('#menu').css("display", "block");
+//        $('#open').css("display", "none");
+//        $('#close').css("display", "block");
+//    });
+//    
+//    $('#close').click(function() {
+//        $('#menu').css("display", "none");
+//        $('#open').css("display", "block");
+//        $('#close').css("display", "none");
+//    });
+     $('#close').hide();
+     $("#open").click(function(){
+         $("#menu").slideDown();
+         $('#open').hide();
+         $('#close').show();
+         console.log("Open mobile nav");
+      });
+
+      $("#close").click(function(){
+        $("#menu").slideUp();
+        $('#close').hide();
+        $('#open').show();
+        console.log("Close mobile nav");
+      });
     
-    $('#close').click(function() {
-        $('#menu').css("display", "none");
-        $('#open').css("display", "block");
-        $('#close').css("display", "none");
-    });
-    event.preventDefault();
+    
+    
+    $(window).resize(function() {
+    if( $(window).width() >= 600 ) {
+      $("#menu:hidden").show();
+    }
+  });
 }); 
 
 
@@ -57,22 +106,13 @@ $(function(){
 /* ******************************************************************** */
 $(document).ready(function() {
 
-  $(".block-visible").click(function() {
+  $(".bouton-jaune").click(function() {
      $(this).siblings(".block-hidden").slideToggle();
-  });  
+  }); 
+    
+  $(".bouton-jaune-smart").click(function(){
+      $(this).siblings(".block-hidden-smart").slideToggle();
+  });    
 });
 
-$(function () {
-    $('a[href*="#"]:not([href="#"])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000);
-                return false;
-            }
-        }
-    });
-});
+

@@ -1,14 +1,37 @@
+@media screen and (min-width: 600px){
+  .mobile_only {
+    display: none;
+  }
+  
+  #menu {
+    display: block;
+  }
+  
+/*
+  #menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+  }
+*/
+  
+}
+
+
 /* ******************************************************************** */
 /* TABLETTE */
 /* ******************************************************************** */
 
 @media screen and (max-width: 930px){
     
+    /* ***** général ***** */
     .wrapper {width: 600px;}
     .wrapper-bleu {
         width: 100vw;
         flex-direction: row;
     }
+    
+    /* ***** page d'accueil ***** */
     .main_categories {flex-flow: column wrap;}
     
     .main_categories_presentation,
@@ -21,7 +44,20 @@
     .header_photo_titre {margin-left: 0px;}
     .header img {margin: 0 auto;}
     
+    .header_photo_titre {
+        font-size: 5em;
+    }
     
+    .header_photo_stitre {
+        font-size: 1.2em;
+        margin-left: 0;
+    }
+    /* ***** actualités ***** */
+    .flex_contain {
+        display: block;
+    }
+    .flex_actu,
+    .flex_vid {width: 100%}
 }
 
 
@@ -31,10 +67,19 @@
 /* ******************************************************************** */
 
 @media screen and (max-width: 600px) {
+    
+    /* ***** général ***** */
     .wrapper {width: 100%;}
+    .wrapper-bleu {padding: 20px;}
     .header {height: 250px;}
     .footer {height: 210px;}
-    .header img {margin-top: 3vh;}
+    .titre_principal {font-size: 2em;}
+    
+    
+    
+    
+    /* ***** page d'accueil ***** */
+    .header_photo {display: none;}
     
     .main_categories_presentation,
     .main_categories_objectifs,
@@ -48,11 +93,29 @@
         margin-top: 0px;
         padding: 40px 20px 20px 20px;
     }
+    
+    /* ***** pages ***** */
     .presentation_bas {
         display: block;
     }
     .cadre_jaune,
     .presentation_droite {width: 100%;}
     .cadre_jaune {margin-top: 30px;}
+    
+    .flex_actu img, .flex_vid video  {width: 100%}
+/*
+    .header_photo {
+        height: 40vh;
+    }
+    .header_photo_titre {
+        font-size: 3.5em;
+        height: 100px;
+        line-height: 100px;
+    }
+    
+    .header_photo_stitre {
+        font-size: 0.85em;
+    }
+*/
 
 }

@@ -1,6 +1,6 @@
 #open,
 #close {
-    display: none;
+/*    display: none;*/
     z-index: 11;
 }
 
@@ -85,7 +85,13 @@ ul.navigation ul ul {
 ul.navigation li:hover > ul {visibility: visible;}
 
 
+.block-visible-smart {display: none;}
+@media screen and (max-width: 600px) {
+    .block-visible-smart {display: block;}
+        .block-hidden-smart {display: none;}
+    
 
+}
 
 
 /*-----------------------------------------------------------------------------------
@@ -172,6 +178,7 @@ a { text-decoration: none; }
     margin-top: 0.5em;
 }
 
+/*
 .bouton-jaune {
     font-size: 1.5em;
     height: ;
@@ -179,6 +186,7 @@ a { text-decoration: none; }
     text-align: center;
     background-color: #f5ca5f;
 }
+*/
 
 .navigation li a {
     padding-right: 20px;
@@ -220,7 +228,7 @@ a { text-decoration: none; }
 }
 
 .header_photo_stitre {
-    font-size: 1.5em;
+    font-size: 1.5em
     letter-spacing: 0.25em;
     color: #e97763;
     background-color: rgba(253,244,237, 0.8);

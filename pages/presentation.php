@@ -28,7 +28,7 @@
                     <div class="presentation_bas">
                         <div class="presentation_droite texte_fonce">
                             <h3 class="titre_secondaire">Historique</h3>
-
+                            <div class="parte_visible-smart">
                             <p>Nathan est né en 2007 en créant
                               la surprise : il ne verrait jamais car ses nerfs
                               optiques étaient trop fins pour laisser passer une
@@ -36,6 +36,8 @@
                             <p>Mais bien vite ses parents se
                               sont rendu compte qu’il pouvait voir avec son cœur !
                             </p>
+                            </div>
+                            <div class="block-hidden-smart">
                             <p>Convaincus, amis et proches
                               de la famille se sont dit que quelques paires de
                               bras supplémentaires ne seraient pas superflues pour
@@ -63,6 +65,8 @@
                               pallier le manque de ce qui pour les enfants ordinaires
                               est tout simplement normal.
                             </p>
+                            </div>
+                            <div class="bouton-jaune-smart"> Lire la suite </div>
                         </div>
                         <div class="cadre_jaune">
                             <div class="texte_cadre_jaune texte_clair">
