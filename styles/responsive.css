@@ -1,3 +1,6 @@
+/* ******************************************************************** */
+/* DESKTOP */
+/* ******************************************************************** */
 @media screen and (min-width: 600px){
   .mobile_only {
     display: none;
@@ -6,14 +9,6 @@
   #menu {
     display: block;
   }
-  
-/*
-  #menu li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px 15px;
-  }
-*/
   
 }
 
@@ -52,12 +47,14 @@
         font-size: 1.2em;
         margin-left: 0;
     }
+    
     /* ***** actualités ***** */
     .flex_contain {
         display: block;
     }
     .flex_actu,
-    .flex_vid {width: 100%}
+    .flex_item {width: 100%}
+    .flex_don {margin: 30px 0 30px 0;}
 }
 
 
@@ -95,14 +92,17 @@
     }
     
     /* ***** pages ***** */
-    .presentation_bas {
-        display: block;
-    }
+    .presentation_bas {display: block;    }
     .cadre_jaune,
     .presentation_droite {width: 100%;}
     .cadre_jaune {margin-top: 30px;}
     
-    .flex_actu img, .flex_vid video  {width: 100%}
+    .flex_actu img, .flex_item video  {width: 100%}
+    
+    /* ***** contact ***** */
+    .flex_don {max-height: 400px;}
+    .flex_part {display: block;}
+    .part_texte {margin-left:0;}
 /*
     .header_photo {
         height: 40vh;

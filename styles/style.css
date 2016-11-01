@@ -152,7 +152,16 @@ body {
 
 header, footer { background-color: #6885c8; }
 
-
+input {margin-bottom: 10px; height: 30px;}
+textarea {height: 180px;}
+input, textarea {
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    background-color: #fdf4ed;
+}
 /* ******************************************************************** */
 /* TYPOS */
 /* ******************************************************************** */
@@ -178,15 +187,38 @@ a { text-decoration: none; }
     margin-top: 0.5em;
 }
 
-/*
-.bouton-jaune {
-    font-size: 1.5em;
-    height: ;
-    line-height: ;
-    text-align: center;
-    background-color: #f5ca5f;
+.bouton-jaune,
+.bouton-jaune-smart,
+.bouton-jaune-upp,
+.controlplay{
+  cursor: pointer;
+  background: #F5CA5F;
+  text-align: center;
+  margin-top: 0.5em;
 }
-*/
+
+.bouton-jaune,
+.bouton-jaune-smart,
+.controlplay{
+    height: 30px;
+  line-height: 30px;
+  width: 100px;
+    color: #fdf4ed;
+}
+
+.bouton-jaune-upp {
+    text-transform: uppercase;
+    width: 200px;
+    height: 1.75em;
+    line-height: 1.75em;
+    color: #fdf4ed;
+    font-size: 1.75em;
+    font-weight: 900;
+}
+
+.flex_don .bouton-jaune-upp {
+    width: 100%;
+}
 
 .navigation li a {
     padding-right: 20px;

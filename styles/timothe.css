@@ -136,18 +136,7 @@ A BON ENTENDEUR, SALUT !
   display: none;
 }
 
-.bouton-jaune,
-.bouton-jaune-smart,
-.controlplay{
-  height: 30px;
-  line-height: 30px;
-  width: 100px;
-  cursor: pointer;
-  background: #f3c062;
-  color: #e3a400;
-  text-align: center;
-  margin-top: 10px;
-}
+
 
 .archives_date{
   color: #c7b1b1;
