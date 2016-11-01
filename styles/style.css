@@ -72,6 +72,7 @@ footer {
 /* TYPOS */
 /* ******************************************************************** */
 p {line-height: 20px;}
+.wrapper-bleu p{margin-top: 10px;}
 
 .texte_clair,
 .texte_clair a {
@@ -97,8 +98,13 @@ p {line-height: 20px;}
 }
 
 .titre_principal {font-size: 3em;}
-.titre_secondaire {font-size: 1.5em;}
+.titre_secondaire, .titre-secondaire {font-size: 1.5em;}
 a {text-decoration: none;}
+
+.titre-secondaire{
+  font-weight: bold;
+  color: #545350;
+}
 
 .bouton {
     font-size: 1.5em;
@@ -211,8 +217,8 @@ a {text-decoration: none;}
 
 .bouton-jaune-upp:hover,
 .bouton-jaune:hover,
-.bouton-jaune-smart,
-.controlplay {
+.bouton-jaune-smart:hover,
+.controlplay:hover {
 	color: rgb(245, 202, 95);
 	background-color: #fdf4ed;
 }
@@ -221,8 +227,6 @@ a {text-decoration: none;}
 /* ******************************************************************** */
 /* NAVIGATION */
 /* ******************************************************************** */
-
-
 #open,
 #close {
     z-index: 11;
@@ -345,10 +349,55 @@ header img {width: 300px;}
 /* ******************************************************************** */
 /* PRESENTATION */
 /* ******************************************************************** */
+.cadre_jaune{
+  background-color: #f3c062;
+  width: 45%;
+  padding: 20px;
+}
+
+.cadre_jaune span{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.presentation_bas{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.presentation_droite {width: 50%;}
+.membres {margin-top: 15px;}
+
+.image_presentation{
+  background-image: url(../images/presentation_equipe.jpg);
+  height: 350px;
+}
+
 
 /* ******************************************************************** */
 /* OBJECTIFS */
 /* ******************************************************************** */
+.cadre_jaune_objectif {margin-top: 30px;}
+
+.objectif_image_haut,
+.objectif_image_bas,
+.image_presentation {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.objectif_image_haut,
+.objectif_image_bas {
+  height: 210px;
+}
+
+.objectif_image_haut {background-image: url(../images/objectif_1.jpg);}
+.objectif_image_bas {background-image: url(../images/objectif_2.jpg);}
+
 
 /* ******************************************************************** */
 /* ACTUALITES */
@@ -363,9 +412,46 @@ header img {width: 300px;}
 .flex_actu {width: 45%;}
 .resume {margin-top: 40px;}
 
+
 /* ******************************************************************** */
 /* ARCHIVES */
 /* ******************************************************************** */
+#barre_recherche{
+  background-color: white;
+  height: 25px;
+}
+
+#champs{
+  border: none;
+  width: 97%;
+  height: 25px
+}
+
+#filters{
+  display: flex;;
+}
+
+#filters li, #filters em{
+  flex-direction: row;
+  margin: 10px 10px 0 0;
+}
+
+#filter em{
+  font-weight: bold;
+}
+
+.block {
+  margin: auto;
+  margin-top: 35px;
+}
+
+.block-hidden {display: none;}
+
+.archives_date{
+  color: #c7b1b1;
+  font-size: 16px;
+}
+
 
 /* ******************************************************************** */
 /* GALERIE */
