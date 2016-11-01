@@ -21,50 +21,16 @@ A BON ENTENDEUR, SALUT !
 /* ******************************************************************** */
 /* ACTUALITES */
 /* ******************************************************************** */
-p {
-	line-height: 20px;
-}
 
-.flex_contain{
-	display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-	margin-top: 30px;
-}
 
-.flex_actu {width: 45%;}
-.resume{margin-top: 40px;}
+
 
 
 /* ******************************************************************** */
 /* GALERIE */
 /* ******************************************************************** */
 
-.recherche{
-	margin-top: 20px;
-	background-color: #fdf4ed;
-}
 
-.champ{
-	border-style: none;
-	width: 97.5%;
-}
-
-
-.flex_item{
-	width: 45%;
-}
-
-.titre_vid{
-	padding-top: 20px;
-	font-weight: 900;
-	font-size: 1.2em;
-}
-
-.flex_item h3,
-.flex_item p {
-	margin-top: 10px;
-}
 
 /* ******************************************************************** */
 /* CONTACT */
@@ -72,71 +38,12 @@ p {
 
 
 
-.flex_don{
-	background-color: rgb(245, 202, 95);
-	padding: 20px;
-    max-height: 300px;
-}
-
-.flex_texte {
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-    margin-top: 20px;
-}
-
-.flex_texte p {
-    width: 100px;
-	padding: 0.5em;
-	font-size: 1.75em;
-	font-weight: 900;
-	background-color: rgb(227, 164,0);
-	cursor: pointer;
-}
-
-.flex_texte p:last-of-type { width: 216px;}
 
 
 
-/*hover*/
-.flex_texte p:hover{
-	color: rgb(227, 164,0);
-	background-color: #fdf4ed;
-}
-
-.bouton-jaune-upp:hover,
-.bouton-jaune:hover,
-.bouton-jaune-smart,
-.controlplay {
-	color: rgb(245, 202, 95);
-	background-color: #fdf4ed;
-}
-
-
-/*PARTENAIRES*/
-.part{
-	margin-top: 30px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.flex_part{
-	margin-top: 20px;
-	display: flex;
-	width: 50%;
-}
-
-.div_part{
-	flex-direction: row;
-	position: relative;
-}
-
-.part_texte{
-	margin-left: 15px;
-}
 
 
 
-.lien{
-	font-size: 0.7em;
-}
+
+
+

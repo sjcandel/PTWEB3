@@ -1,41 +1,234 @@
+.block-visible-smart {
+    display: none;
+}
+
+
+
+
+.flex_don .bouton-jaune-upp {
+    width: 100%;
+}
+
+
+/*-----------------------------------------------------------------------------------
+
+1.Utilitaires
+2.Générales
+3.Typographie
+4.Navigation
+5.Page d'accueil
+6.
+
+-----------------------------------------------------------------------------------*/
+
+
+/* ******************************************************************** */
+/* UTILITAIRES */
+/* ******************************************************************** */
+
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i';
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+
+/* ******************************************************************** */
+/* GENERALES */
+/* ******************************************************************** */
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 1em;
+    background-color: #fdf4ed;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.wrapper,
+.wrapper-bleu {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.wrapper-bleu {
+    padding: 50px;
+    background-color: #dcdfec;
+}
+
+header,
+footer {
+    background-color: #6885c8;
+}
+
+footer {
+    padding-top: 50px;
+    height: 300px;
+}
+
+/* ******************************************************************** */
+/* TYPOS */
+/* ******************************************************************** */
+p {line-height: 20px;}
+
+.texte_clair,
+.texte_clair a {
+    color: #fdf4ed;
+}
+
+.texte_fonce,
+.texte_fonce a {
+    color: #545350;
+}
+
+.texte_jaune,
+.texte_jaune a {
+    color: #e3a400;
+}
+
+.titre_principal,
+.titre_secondaire,
+.bouton,
+.main_categories_don,
+.header_photo_titre {
+    font-family: 'Pacifico';
+}
+
+.titre_principal {font-size: 3em;}
+.titre_secondaire {font-size: 1.5em;}
+a {text-decoration: none;}
+
+.bouton {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+.bouton-jaune,
+.bouton-jaune-smart,
+.bouton-jaune-upp,
+.controlplay {
+    cursor: pointer;
+    background: #F5CA5F;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.bouton-jaune,
+.bouton-jaune-smart,
+.controlplay {
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    color: #fdf4ed;
+}
+
+.bouton-jaune-upp {
+    text-transform: uppercase;
+    width: 200px;
+    height: 1.75em;
+    line-height: 1.75em;
+    color: #fdf4ed;
+    font-size: 1.75em;
+    font-weight: 900;
+}
+
+.flex_texte p:hover{
+	color: rgb(227, 164,0);
+	background-color: #fdf4ed;
+}
+
+.bouton-jaune-upp:hover,
+.bouton-jaune:hover,
+.bouton-jaune-smart,
+.controlplay {
+	color: rgb(245, 202, 95);
+	background-color: #fdf4ed;
+}
+.navigation li a {
+    padding-right: 20px;
+    border-right: 1px solid #fdf4ed;
+}
+
+.navigation li,
+.main_categories_titre {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.main_categories_icon {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.main_categories_don h3 {font-size: 3em;}
+
+.footer_icons {margin-bottom: 20px;}
+
+.footer_icons ul {
+    width: 150px;
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+.footer_mentions {text-align: center;}
+
+.header_photo_titre {
+    font-size: 6em;
+    color: #6384c7;
+    background-color: rgba(253, 244, 237, 0.8);
+    height: 150px;
+    line-height: 150px;
+    margin-left: 300px;
+    padding-left: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.header_photo_stitre {
+    font-size: 1.5em letter-spacing: 0.25em;
+    color: #e97763;
+    background-color: rgba(253, 244, 237, 0.8);
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 90px;
+    padding-left: 20px;
+    margin-left: 100px;
+}
+
+.chapeau {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* ***** effets ***** */
+.flex_texte p:hover{
+	color: rgb(227, 164,0);
+	background-color: #fdf4ed;
+}
+
+.bouton-jaune-upp:hover,
+.bouton-jaune:hover,
+.bouton-jaune-smart,
+.controlplay {
+	color: rgb(245, 202, 95);
+	background-color: #fdf4ed;
+}
+
+
+/* ******************************************************************** */
+/* NAVIGATION */
+/* ******************************************************************** */
+
+
 #open,
 #close {
-/*    display: none;*/
     z-index: 11;
 }
 
-@media screen and (max-width: 600px){
-    nav {
-        display: none;
-        position: absolute;
-        top:0;
-        width: 100vw;
-        height: 100vh;
-        background-color: #6885C8;
-        z-index: 10;
-        padding: 30px;
-    }
-    
-    nav ul li{
-        width: 100%;
-        height: 50px;
-    }
-    ul.navigation li a {border-right: none;}
-    #open,
-    #close {
-        color: #fdf4ed;
-        text-align: center;
-        text-decoration: none;
-        position: absolute;
-        top: 2vh;
-        right: 8vw;
-        font-size: 2em;
-    }
-    #open {display: block};
-}
-
-
-nav { 
+nav {
     flex-grow: 2;
     align-self: flex-end;
     margin-bottom: 20px;
@@ -43,14 +236,14 @@ nav {
 
 
 /* ***** Niveau 1 ***** */
-
-ul.navigation ul li:hover a{color: #545350;}
+ul.navigation ul li:hover a {color: #545350;}
 ul.navigation li:last-child a {border-right: none;}
 
 ul.navigation li.hover,
 ul.navigation li:hover {
     position: relative;
 }
+
 .navigation_submenu {z-index: 10;}
 
 
@@ -68,7 +261,9 @@ ul.navigation ul li {
     padding: 10px;
 }
 
-ul.navigation ul li:hover {background: #acd0eb;}
+ul.navigation ul li:hover {
+    background: #acd0eb;
+}
 
 ul.navigation ul li a {
     border-right: none;
@@ -83,204 +278,6 @@ ul.navigation ul ul {
 }
 
 ul.navigation li:hover > ul {visibility: visible;}
-
-
-.block-visible-smart {display: none;}
-@media screen and (max-width: 600px) {
-    .block-visible-smart {display: block;}
-        .block-hidden-smart {display: none;}
-    
-
-}
-
-
-/*-----------------------------------------------------------------------------------
-1.Utilitaires
-
-2.Générales
-
-3.Typographie
-
-4.Structure de base
-  4.1.Navigation
-  4.2.Flexbox
-
-5.Styles et couleurs
-
-6.Media Queries
-  5.1.Tablette (paysage)
-  5.2.Tablette (portrait)
------------------------------------------------------------------------------------*/
-   
-
-/* ******************************************************************** */
-/* UTILITAIRES */
-/* ******************************************************************** */
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i';
-
-@import 'https://fonts.googleapis.com/css?family=Pacifico';
-
-
-
-/* ******************************************************************** */
-/* GENERALES */
-/* ******************************************************************** */
-*, *:after, *:before { box-sizing: border-box; }
-
-body {
-    font-family: 'Source Sans Pro';
-    font-size: 1em;
-    background-color: #fdf4ed;
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-.wrapper,
-.wrapper-bleu {
-    width: 930px;
-    margin: 0 auto;
-}
-
-.wrapper-bleu { 
-/*
-    display: flex;
-    flex-direction: column;
-*/
-    padding: 50px;  
-    background-color: #dcdfec;
-}
-
-header, footer { background-color: #6885c8; }
-
-input {margin-bottom: 10px; height: 30px;}
-textarea {height: 180px;}
-input, textarea {
-    width: 100%;
-    border: none;
-    font-size: 1em;
-    padding: 10px;
-    font-family: 'Source Sans Pro';
-    background-color: #fdf4ed;
-}
-/* ******************************************************************** */
-/* TYPOS */
-/* ******************************************************************** */
-
-.texte_clair, .texte_clair a { color: #fdf4ed; }
-.texte_fonce, .texte_fonce a { color: #545350; }
-.texte_jaune, .texte_jaune a { color: #e3a400; }
-
-
-.titre_principal,
-.titre_secondaire,
-.bouton,
-.main_categories_don,
-.header_photo_titre { font-family: 'Pacifico'; }
-
-.titre_principal { font-size: 3em; }
-.titre_secondaire { font-size: 1.5em; }
-
-a { text-decoration: none; }
-
-.bouton {
-    font-size: 1.5em;
-    margin-top: 0.5em;
-}
-
-.bouton-jaune,
-.bouton-jaune-smart,
-.bouton-jaune-upp,
-.controlplay{
-  cursor: pointer;
-  background: #F5CA5F;
-  text-align: center;
-  margin-top: 0.5em;
-}
-
-.bouton-jaune,
-.bouton-jaune-smart,
-.controlplay{
-    height: 30px;
-  line-height: 30px;
-  width: 100px;
-    color: #fdf4ed;
-}
-
-.bouton-jaune-upp {
-    text-transform: uppercase;
-    width: 200px;
-    height: 1.75em;
-    line-height: 1.75em;
-    color: #fdf4ed;
-    font-size: 1.75em;
-    font-weight: 900;
-}
-
-.flex_don .bouton-jaune-upp {
-    width: 100%;
-}
-
-.navigation li a {
-    padding-right: 20px;
-    border-right: 1px solid #fdf4ed;
-}
-
-.navigation li,
-.main_categories_titre {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
-.main_categories_icon { 
-    font-size: 4em; 
-    margin-bottom: 0.5em;
-}
-
-.main_categories_don h3 {font-size: 3em;}
-
-.footer_icons { margin-bottom: 20px; }
-.footer_icons ul {
-    width: 150px;
-    margin: 0 auto;
-    font-size: 3em;
-}
-
-.footer_mentions { text-align: center; }
-
-.header_photo_titre {
-    font-size: 6em;
-    color: #6384c7;
-    background-color: rgba(253,244,237, 0.8);
-    height: 150px;
-    line-height: 150px;
-    margin-left: 300px;
-    padding-left: 50px;
-    position: relative;
-    top: 70px;
-}
-
-.header_photo_stitre {
-    font-size: 1.5em
-    letter-spacing: 0.25em;
-    color: #e97763;
-    background-color: rgba(253,244,237, 0.8);
-    height: 50px;
-    line-height: 50px;
-    position: relative;
-    top: 90px;
-    padding-left: 20px;
-    margin-left: 100px;
-}
-
-.chapeau {
-    font-size: 1.2em;
-    font-weight: 300;
-}
-
-/* ******************************************************************** */
-/* NAVIGATION */
-/* ******************************************************************** */
-
 
 
 
@@ -298,8 +295,6 @@ a { text-decoration: none; }
     align-items: center;
 }
 
-header img {width: 300px;}
-
 .main_categories_presentation,
 .main_categories_objectifs,
 .main_categories_actualites,
@@ -307,7 +302,7 @@ header img {width: 300px;}
     text-align: center;
     box-shadow: 0px 3px 10px 0px #545350;
 }
-    
+
 .main_categories_presentation,
 .main_categories_objectifs,
 .main_categories_actualites {
@@ -318,20 +313,23 @@ header img {width: 300px;}
 }
 
 .main_categories_presentation,
-.main_categories_don { background-color: #6885c8; }
-.main_categories_objectifs { background-color: #e97763; }
-.main_categories_actualites { background-color: #f5ca5f; }
+.main_categories_don {
+    background-color: #6885c8;
+}
+
+.main_categories_objectifs {
+    background-color: #e97763;
+}
+
+.main_categories_actualites {
+    background-color: #f5ca5f;
+}
 
 .main_categories_don {
     height: 100px;
-    width: 100%; 
+    width: 100%;
     margin: 50px 0 50px 0;
     padding: 20px;
-}
-
-footer {
-    padding-top: 50px;
-    height: 300px;
 }
 
 .header_photo {
@@ -341,31 +339,130 @@ footer {
     background-size: cover;
 }
 
+header img {width: 300px;}
 
 
+/* ******************************************************************** */
+/* PRESENTATION */
+/* ******************************************************************** */
+
+/* ******************************************************************** */
+/* OBJECTIFS */
+/* ******************************************************************** */
+
+/* ******************************************************************** */
+/* ACTUALITES */
+/* ******************************************************************** */
+.flex_contain{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+	margin-top: 30px;
+}
+
+.flex_actu {width: 45%;}
+.resume {margin-top: 40px;}
+
+/* ******************************************************************** */
+/* ARCHIVES */
+/* ******************************************************************** */
+
+/* ******************************************************************** */
+/* GALERIE */
+/* ******************************************************************** */
+.recherche{
+	margin-top: 20px;
+	background-color: #fdf4ed;
+}
+
+.champ{
+	border-style: none;
+	width: 97.5%;
+}
+
+.flex_item {width: 45%;}
+
+.titre_vid{
+	padding-top: 20px;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+
+.flex_item h3,
+.flex_item p {
+	margin-top: 10px;
+}
+
+/* ******************************************************************** */
+/* CONTACT */
+/* ******************************************************************** */
+
+/* ***** structure ***** */
+.flex_don{
+	background-color: rgb(245, 202, 95);
+	padding: 20px;
+    max-height: 300px;
+}
+
+.flex_texte {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    margin-top: 20px;
+}
+
+.flex_texte p {
+    width: 100px;
+	padding: 0.5em;
+	font-size: 1.75em;
+	font-weight: 900;
+	background-color: rgb(227, 164,0);
+	cursor: pointer;
+}
+
+.flex_texte p:last-of-type { width: 216px;}
 
 
+/* ***** formulaire ***** */
+input,
+textarea {
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    padding: 10px;
+    font-family: 'Source Sans Pro';
+    background-color: #fdf4ed;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+textarea {height: 180px;}
 
 
+/* ***** partenaires ***** */
+.part {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
 
+.flex_part{
+	margin-top: 20px;
+	display: flex;
+	width: 50%;
+}
 
+.div_part {
+	flex-direction: row;
+	position: relative;
+}
 
+.part_texte {margin-left: 15px;}
+.lien {font-size: 0.7em;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ******************************************************************** */
+/* THE END ! */
+/* ******************************************************************** */

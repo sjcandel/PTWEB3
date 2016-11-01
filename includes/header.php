@@ -7,6 +7,5 @@
     <link rel="stylesheet" href="../styles/animate.css"> 
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/timothe.css">
-    <link rel="stylesheet" href="../styles/auryane.css">
     <link rel="stylesheet" href="../styles/responsive.css">
 </head>
