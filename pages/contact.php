@@ -16,12 +16,12 @@
             
             <div class="flex_contain">
                 <div class="flex_item">
-                    <form action="reception.php" method="post">
+                    <form action="../reception.php" method="post">
                     <!--<div class="flex_itm">-->
-                        <input type="text" class="form-control" name="nom" placeholder="Nom...">
-                        <input type="text" class="form-control" name="email" placeholder="E-mail...">
-                        <input type="text" class="form-control" name="objet" placeholder="Objet...">
-                        <textarea type="text" class="form-control" name="message" placeholder="Message..."></textarea>
+                        <input type="text" class="form-control" name="nom" id="nom" placeholder="Nom...">
+                        <input type="text" class="form-control" name="email" id="email" placeholder="E-mail...">
+                        <input type="text" class="form-control" name="objet" id="objet" placeholder="Objet...">
+                        <textarea type="text" class="form-control" name="message" id="message" placeholder="Message..."></textarea>
                         
                     <!--</div>-->
                     <div type="submit" class="bouton-jaune-upp">Envoyer</div>
