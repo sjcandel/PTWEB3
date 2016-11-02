@@ -10,10 +10,11 @@
             <!--MAIN-->
             <main>
                 <div class="wrapper-bleu texte_fonce">
+
+                    <h2 class="titre_principal">Archives</h2>
+
                     <div id="barre_recherche">
-                        <form method="post" action=""> <em id="clickme" class="fa fa-search"></em>
-                            <input id="champs" class="champ" type="search" placeholder="Rechercher" />
-                        </form>
+                        <em id="clickme" class="fa fa-search texte_fonce"> Rechercher</em>
                     </div>
 
 

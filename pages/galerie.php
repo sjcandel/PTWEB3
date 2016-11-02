@@ -6,20 +6,19 @@
     <body>
         <!--NAV-->
         <?php include("../includes/nav.php"); ?>
-           
+
             <!--MAIN-->
             <main>
                 <div class="wrapper-bleu texte_fonce">
                     <h2 class="titre_principal"> Galerie multimédia </h2>
-                    
+
                     <!-- Barre de recherche -->
-                    <div id="barre_recherche" class="recherche">
-                        <form method="post" action=""> <em id="clickme" class="fa fa-search"></em>
-                            <input id="champs" class="champ" type="search" placeholder="Rechercher" /> </form>
+                    <div id="barre_recherche">
+                        <em id="clickme" class="fa fa-search texte_fonce"> Rechercher</em>
                     </div>
                     <!-- Filtrer par année 2012 | 2013 | 2014 | 2015 | 2016 -->
                     <!-- Filtrer par thème vie de l'association | sport | Nathan -->
-                    
+
                     <div class="flex_contain">
                         <div class="flex_item">
                             <video width="400" height="229" poster="../images/vid1.jpg" src="../videos/vismavie.mp4">Fauve Hautot dans la peau d'un malvoyant !</video>
@@ -46,11 +45,11 @@
                             <p> La Ligue Braille organise des stages pour faire découvrir aux enfants malvoyants les oeuvres d'art dont des tableaux dans les musées. </p>
                         </div>
                     </div>
-                    
+
                     <!-- Pagination -->
                 </div>
             </main>
-            
+
             <!--FOOTER-->
             <?php include("../includes/footer.php"); ?>
             <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
