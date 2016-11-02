@@ -60,6 +60,7 @@ footer {
 /* TYPOS */
 /* ******************************************************************** */
 p {line-height: 20px;}
+em {font-family: 'Source Sans Pro';}
 .wrapper-bleu p{margin-top: 10px;}
 
 .texte_clair,
@@ -85,7 +86,7 @@ p {line-height: 20px;}
     font-family: 'Pacifico';
 }
 
-.titre_principal {font-size: 3em;}
+.titre_principal {font-size: 3em; margin-bottom: 30px;}
 .titre_secondaire, .titre-secondaire {font-size: 1.5em;}
 a {text-decoration: none;}
 
@@ -408,9 +409,12 @@ header img {width: 300px;}
 /* ******************************************************************** */
 /* ARCHIVES */
 /* ******************************************************************** */
-#barre_recherche{
-  background-color: white;
-  height: 25px;
+#barre_recherche {
+    background-color: #fdf4ed;
+    font-family: 'Source Sans Pro';
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
 }
 
 #champs{

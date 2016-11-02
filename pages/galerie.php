@@ -12,12 +12,20 @@
                 <div class="wrapper-bleu texte_fonce">
                     <h2 class="titre_principal"> Galerie multimédia </h2>
 
-                    <!-- Barre de recherche -->
-                    <div id="barre_recherche">
-                        <em id="clickme" class="fa fa-search texte_fonce"> Rechercher</em>
+                    <!----------------------------------------------------->
+                    <div id="barre_recherche"> <em id="clickme" class="fa fa-search texte_fonce"> Rechercher</em> </div>
+                    <div id="archivesFilters">
+                        <ul id="filters"> <em>Filtrer par année :</em>
+                            <li><span class="filter" data-filter=".2015">2015</span></li>
+                            <li><span class="filter" data-filter=".2016">2016</span></li>
+                        </ul>
+                        <ul id="filters"> <em>Filtrer par thème :</em>
+                            <li><span class="filter" data-filter=".vie">Vie de l'association</span></li>
+                            <li><span class="filter" data-filter=".sport">Sport</span></li>
+                            <li><span class="filter" data-filter=".nathan">Nathan</span></li>
+                        </ul>
                     </div>
-                    <!-- Filtrer par année 2012 | 2013 | 2014 | 2015 | 2016 -->
-                    <!-- Filtrer par thème vie de l'association | sport | Nathan -->
+                    <!----------------------------------------------------->
 
                     <div class="flex_contain">
                         <div class="flex_item">
@@ -46,14 +54,11 @@
                         </div>
                     </div>
 
-                    <!-- Pagination -->
                 </div>
             </main>
 
             <!--FOOTER-->
             <?php include("../includes/footer.php"); ?>
-            <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-            <script src="../js/video.js"></script>
     </body>
 
 </html>

@@ -99,7 +99,7 @@
     
     /* ***** page d'accueil ***** */
     .header_photo {display: none;}
-    .main_categories_presentation {margin-top: 50px;}
+    .main_categories {margin-top: 50px;}
     /*
     .header_photo {
         height: 40vh;
@@ -133,7 +133,7 @@
     .block-hidden-smart {display: none;}
     
     /* ***** pages ***** */
-    .presentation_bas {display: block;    }
+    .presentation_bas {display: block;}
     .cadre_jaune,
     .presentation_droite {width: 100%;}
     .cadre_jaune {margin-top: 30px;}

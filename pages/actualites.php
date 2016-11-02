@@ -11,9 +11,7 @@
                 <div class="wrapper-bleu texte_fonce">
                     <h2 class="titre_principal"> Actualités de l'association </h2>
                     <div class="flex_contain">
-                        <div class="flex_actu">
-                            <img src="../images/actu1mini.jpg">
-                        </div>
+                        <div class="flex_actu"> <img src="../images/actu1mini.jpg" alt="image"> </div>
                         <div class="flex_actu">
                             <div class="partie_visible">
                                 <h3 class="titre-secondaire"> A la découverte de l'automne, en joëlette... </h3>
@@ -26,9 +24,7 @@
                         </div>
                     </div>
                     <div class="flex_contain">
-                       <div class="flex_actu">
-                        <img src="../images/actu2mini.jpg">
-                        </div>
+                        <div class="flex_actu"> <img src="../images/actu2mini.jpg" alt="image"> </div>
                         <div class="flex_actu">
                             <div class="partie_visible">
                                 <h3 class="titre-secondaire"> Kombissiri au cinéma Le VOX </h3>
@@ -44,9 +40,7 @@
                         </div>
                     </div>
                     <div class="flex_contain">
-                       <div class="flex_actu">
-                        <img src="../images/actu3mini.jpg">
-                        </div>
+                        <div class="flex_actu"> <img src="../images/actu3mini.jpg" alt="image"> </div>
                         <div class="flex_actu">
                             <div class="partie_visible">
                                 <h3 class="titre-secondaire"> Première séance de jeux à l’orangerie </h3>
@@ -60,9 +54,7 @@
                         </div>
                     </div>
                     <div class="flex_contain">
-                       <div class="flex_actu">
-                        <img src="../images/actu4mini.jpg">
-                        </div>
+                        <div class="flex_actu"> <img src="../images/actu4mini.jpg" alt="image"> </div>
                         <div class="flex_actu">
                             <div class="partie_visible">
                                 <h3 class="titre-secondaire"> « Vue du cœur » fait sa rentrée : le calendrier </h3>
