@@ -9,6 +9,7 @@
   #menu {
     display: block;
   }
+    .bouton-jaune-smart {display: none;}
   
 }
 
@@ -81,9 +82,8 @@
         width: 100%;
         height: 50px;
     }
-    ul.navigation li a {
-        border-right: none;
-    }
+    ul.navigation li a {border-right: none;}
+    
     #open,
     #close {
         color: #fdf4ed;
@@ -94,13 +94,26 @@
         right: 8vw;
         font-size: 2em;
     }
-    #open {
-        display: block
-    }
-    ;
+    #open { display: block}
+    
     
     /* ***** page d'accueil ***** */
     .header_photo {display: none;}
+    .main_categories_presentation {margin-top: 50px;}
+    /*
+    .header_photo {
+        height: 40vh;
+    }
+    .header_photo_titre {
+        font-size: 3.5em;
+        height: 100px;
+        line-height: 100px;
+    }
+    
+    .header_photo_stitre {
+        font-size: 0.85em;
+    }
+    */
     
     .main_categories_presentation,
     .main_categories_objectifs,
@@ -131,19 +144,6 @@
     .flex_don {max-height: 400px;}
     .flex_part {display: block;}
     .part_texte {margin-left:0;}
-/*
-    .header_photo {
-        height: 40vh;
-    }
-    .header_photo_titre {
-        font-size: 3.5em;
-        height: 100px;
-        line-height: 100px;
-    }
-    
-    .header_photo_stitre {
-        font-size: 0.85em;
-    }
-*/
+
 
 }

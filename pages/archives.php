@@ -145,6 +145,7 @@
                                         <p> Le bénévole s’engage à respecter la philosophie de « vue du Cœur. </p>
                                         <p> Par nos actions, nous voulons, le temps des rencontres, partager, dans un esprit d´ouverture et de tolérance, des vécus différents et apporter ainsi notre modeste contribution à un monde plus fraternel. </p>
                                         <p> La présente charte est révisable ou modifiable selon l’évolution de l’association. (septembre 2016) </p>
+                                    </ul>
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>

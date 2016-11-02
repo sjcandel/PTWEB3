@@ -1,15 +1,3 @@
-.block-visible-smart {
-    display: none;
-}
-
-
-
-
-.flex_don .bouton-jaune-upp {
-    width: 100%;
-}
-
-
 /*-----------------------------------------------------------------------------------
 
 1.Utilitaires
@@ -26,8 +14,8 @@
 /* UTILITAIRES */
 /* ******************************************************************** */
 
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i';
-@import 'https://fonts.googleapis.com/css?family=Pacifico';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
 /* ******************************************************************** */
 /* GENERALES */
@@ -147,8 +135,8 @@ a {text-decoration: none;}
 
 .bouton-jaune-upp:hover,
 .bouton-jaune:hover,
-.bouton-jaune-smart,
-.controlplay {
+.bouton-jaune-smart:hover,
+.controlplay:hover {
 	color: rgb(245, 202, 95);
 	background-color: #fdf4ed;
 }
@@ -193,7 +181,8 @@ a {text-decoration: none;}
 }
 
 .header_photo_stitre {
-    font-size: 1.5em letter-spacing: 0.25em;
+    font-size: 1.5em;
+    letter-spacing: 0.25em;
     color: #e97763;
     background-color: rgba(253, 244, 237, 0.8);
     height: 50px;
@@ -374,6 +363,9 @@ header img {width: 300px;}
   height: 350px;
 }
 
+.block-visible-smart {display: none;}
+
+
 
 /* ******************************************************************** */
 /* OBJECTIFS */
@@ -456,16 +448,6 @@ header img {width: 300px;}
 /* ******************************************************************** */
 /* GALERIE */
 /* ******************************************************************** */
-.recherche{
-	margin-top: 20px;
-	background-color: #fdf4ed;
-}
-
-.champ{
-	border-style: none;
-	width: 97.5%;
-}
-
 .flex_item {width: 45%;}
 
 .titre_vid{
@@ -507,7 +489,7 @@ header img {width: 300px;}
 }
 
 .flex_texte p:last-of-type { width: 216px;}
-
+.flex_don .bouton-jaune-upp {width: 100%;}
 
 /* ***** formulaire ***** */
 input,
