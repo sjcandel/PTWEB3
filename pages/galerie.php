@@ -25,26 +25,7 @@
                             <li><span class="filter" data-filter=".nathan">Nathan</span></li>
                         </ul>
                     </div>
-<<<<<<< HEAD
                     <!----------------------------------------------------->
-=======
-                    <!-- Filtrer par année 2012 | 2013 | 2014 | 2015 | 2016 -->
-                    <!-- Filtrer par thème vie de l'association | sport | Nathan -->
-                    <div id="archivesFilters">
-
-                        <ul id="filters"> <em>Filtrer par année :</em>
-                            <li><span class="filter" data-filter=".2015">2015</span></li>
-                            <li><span class="filter" data-filter=".2016">2016</span></li>
-                        </ul>
-
-                        <ul id="filters"> <em>Filtrer par thème :</em>
-                            <li><span class="filter" data-filter=".vie">Vie de l'association</span></li>
-                            <li><span class="filter" data-filter=".sport">Sport</span></li>
-                            <li><span class="filter" data-filter=".nathan">Nathan</span></li>
-                        </ul>
-                    </div>
->>>>>>> origin/euphorie
-
                     <div class="flex_contain">
                         <div class="flex_item">
                             <video width="400" height="229" poster="../images/vid1.jpg" src="../videos/vismavie.mp4">Fauve Hautot dans la peau d'un malvoyant !</video>
