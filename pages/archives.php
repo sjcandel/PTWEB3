@@ -6,19 +6,19 @@
     <body>
         <!--NAV-->
         <?php include("../includes/nav.php"); ?>
-           
+
             <!--MAIN-->
             <main>
-                <div class="wrapper-bleu">
+                <div class="wrapper-bleu texte_fonce">
                     <div id="barre_recherche">
                         <form method="post" action=""> <em id="clickme" class="fa fa-search"></em>
-                            <input id="champs" class="champ" type="search" placeholder="Rechercher" /> 
+                            <input id="champs" class="champ" type="search" placeholder="Rechercher" />
                         </form>
                     </div>
-                    
-                    
-                        
-                        
+
+
+
+
                         <!----------------------------------------------------->
                         <div id="archivesFilters">
 
@@ -35,7 +35,7 @@
                         </div>
                         <!----------------------------------------------------->
                         <div id="archivesList">
-                           
+
                            <!-------------->
                             <div class="block archives 2016 nathan" data-cat="2016 nathan">
                                 <div class="partie_visible">
@@ -78,9 +78,9 @@
                                     <p> Pour soutenir nos actions au Burkina Faso : </p> <a href="https://www.helloasso.com/associations/association-yvoir/collectes/kombissiri">https://www.helloasso.com/associations/association-yvoir/collectes/kombissiri</a> </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
-                            
+
                             <!-------------->
-                            
+
                             <div class="block archives 2016 nathan" data-cat="2016 nathan">
                                 <div class="partie_visible">
                                     <h3 class="titre-secondaire">Première séance de jeux à l’orangerie</h3>
@@ -94,9 +94,9 @@
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
-                            
+
                             <!-------------->
-                            
+
                             <div class="block archives 2016 vie" data-cat="2016 vie">
                                 <div class="partie_visible">
                                     <h3 class="titre-secondaire">« Vue du cœur » fait sa rentrée: le calendrier</h3>
@@ -108,93 +108,93 @@
                                     <p> Un grand merci à l’équipe de Jean-Guy animée, non seulement d’un bel esprit sportif, mais d’une dynamique solidaire et acquise à la cause visuelle. Le TDK se nomme le « typhlo trail », c’est tout dire. </p>
                                     <p> Cet argent servira à l’acquisition de matériel spécifique et numérique pour les projets en cours. </p>
                                     <p> En effet à partir du 28 septembre, nous nous retrouvons avec Clément et Nicolas de « Vue d’ensemble » pour une animation et des jeux à l’orangerie avec ces enfants qui ont marché et qui veulent très bientôt égaler les plus grands. </p>
-                                    <p class="texte_fonce"> D’ailleurs nous sommes à la recherche de bénévoles encadrants- une fois par mois, si le cœur vous en dit. </p>
-                                    <p class="texte_fonce"> Et le 16 octobre nous ferons une sortie vers le Haut Barr avec l’Association « Osons la différence » tour de joëlette et bonne humeur garantis. </p>
-                                    <p class="texte_fonce"> Si vous souhaitez participer, n’hésitez pas à nous rejoindre. </p>
+                                    <p> D’ailleurs nous sommes à la recherche de bénévoles encadrants- une fois par mois, si le cœur vous en dit. </p>
+                                    <p> Et le 16 octobre nous ferons une sortie vers le Haut Barr avec l’Association « Osons la différence » tour de joëlette et bonne humeur garantis. </p>
+                                    <p> Si vous souhaitez participer, n’hésitez pas à nous rejoindre. </p>
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
-                            
+
                             <!-------------->
-                            
+
                             <div class="block archives 2016 vie" data-cat="2016 vie">
                                 <div class="partie_visible">
                                     <h3 class="titre-secondaire">La charte de vue du coeur</h3>
                                     <p class="archives_date"> BY CLARISSE · 20 SEPTEMBRE 2016 </p>
-                                    <p class="texte_fonce"> Vue du cœur s’est dotée d’une charte que voilà ci-dessous </p>
+                                    <p> Vue du cœur s’est dotée d’une charte que voilà ci-dessous </p>
                                 </div>
                                 <div class="block-hidden">
-                                    <p class="texte_fonce"> « Vue du cœur » a pour vocation de favoriser le développement et l’épanouissement d’enfants déficients visuels et non-voyants : </p>
+                                    <p> « Vue du cœur » a pour vocation de favoriser le développement et l’épanouissement d’enfants déficients visuels et non-voyants : </p>
                                     <ul class="texte_fonce">
                                         <li>En pratiquant le «vivre ensemble» entre enfants voyants et non-voyants.</li>
                                         <li>En développant leur autonomie et leur mobilité</li>
                                         <li>En encourageant leur confiance en eux et à s’ouvrir au monde</li>
                                     </ul>
-                                    <p class="texte_fonce"> Pour ce faire, l´association </p>
+                                    <p> Pour ce faire, l´association </p>
                                     <ul class="texte_fonce">
                                         <li>recourt aux technologies modernes de navigation pour faire découvrir aux enfants non-voyants l’environnement naturel/urbain</li>
                                         <li>organise des sorties communes, de natures diverses (ludiques/culturelles/ sportives…) et des activités adaptées à l’âge et aux besoins des enfants.</li>
-                                        <p class="texte_fonce"> L’association s’appuie sur l’expérience de jeunes adultes déficients visuels et sur des associations de proximité pour accompagner les enfants (Vue d’ensemble et Yvoir) </p>
-                                        <p class="texte_fonce"> L’association « Vue du cœur » existe grâce à ses membres bénévoles qui la font vivre et le bénévolat est compris comme un engagement libre, moral et non rétribué de personnes qui agissent pour d’autres ou pour l’intérêt collectif, dans un cadre qui va au-delà de l’entraide familiale ou amicale. </p>
-                                        <p class="texte_fonce"> La présence d’un des parents est demandée (ou un représentant mandaté par les parents) lors des manifestations, pour soutenir et encourager les enfants, pour mieux prendre la mesure des progrès accomplis, pour être partie prenante des initiatives prises par l´association. Les enfants restent sous la responsabilité des parents ou de la personne majeure désignée par les parents. </p>
-                                        <p class="texte_fonce"> Des encadrants adultes de « Vue du cœur » sont présents pour veiller à la sécurité, au déroulement harmonieux, à la convivialité et aux échanges dans le groupe. Ils sont également là pour observer les enfants dans la mise en œuvre des activités proposées pour adapter le cas échéant, les outils numériques, les jeux aux besoins des enfants et contribuer ainsi plus efficacement à leur épanouissement cognitif, social et affectif. </p>
-                                        <p class="texte_fonce"> Les membres de l´association font don de temps et de compétences lors des activités dans la limite de leur nombre et leurs disponibilités. En aucun cas, ils ne se substituent aux parents ou à une compétence professionnelle. </p>
-                                        <p class="texte_fonce"> L’équipement spécifique utilisé lors des sorties sera prêté uniquement dans le cadre des activités organisées par l’association. </p>
-                                        <p class="texte_fonce"> L’association se permettra d’annuler des activités si le nombre d’encadrants ou les conditions ne permettent pas de garantir le bon déroulement de l’activité ou la sécurité des participants. </p>
-                                        <p class="texte_fonce"> Le bénévole s’engage à respecter la philosophie de « vue du Cœur. </p>
-                                        <p class="texte_fonce"> Par nos actions, nous voulons, le temps des rencontres, partager, dans un esprit d´ouverture et de tolérance, des vécus différents et apporter ainsi notre modeste contribution à un monde plus fraternel. </p>
-                                        <p class="texte_fonce"> La présente charte est révisable ou modifiable selon l’évolution de l’association. (septembre 2016) </p>
+                                        <p> L’association s’appuie sur l’expérience de jeunes adultes déficients visuels et sur des associations de proximité pour accompagner les enfants (Vue d’ensemble et Yvoir) </p>
+                                        <p> L’association « Vue du cœur » existe grâce à ses membres bénévoles qui la font vivre et le bénévolat est compris comme un engagement libre, moral et non rétribué de personnes qui agissent pour d’autres ou pour l’intérêt collectif, dans un cadre qui va au-delà de l’entraide familiale ou amicale. </p>
+                                        <p> La présence d’un des parents est demandée (ou un représentant mandaté par les parents) lors des manifestations, pour soutenir et encourager les enfants, pour mieux prendre la mesure des progrès accomplis, pour être partie prenante des initiatives prises par l´association. Les enfants restent sous la responsabilité des parents ou de la personne majeure désignée par les parents. </p>
+                                        <p> Des encadrants adultes de « Vue du cœur » sont présents pour veiller à la sécurité, au déroulement harmonieux, à la convivialité et aux échanges dans le groupe. Ils sont également là pour observer les enfants dans la mise en œuvre des activités proposées pour adapter le cas échéant, les outils numériques, les jeux aux besoins des enfants et contribuer ainsi plus efficacement à leur épanouissement cognitif, social et affectif. </p>
+                                        <p> Les membres de l´association font don de temps et de compétences lors des activités dans la limite de leur nombre et leurs disponibilités. En aucun cas, ils ne se substituent aux parents ou à une compétence professionnelle. </p>
+                                        <p> L’équipement spécifique utilisé lors des sorties sera prêté uniquement dans le cadre des activités organisées par l’association. </p>
+                                        <p> L’association se permettra d’annuler des activités si le nombre d’encadrants ou les conditions ne permettent pas de garantir le bon déroulement de l’activité ou la sécurité des participants. </p>
+                                        <p> Le bénévole s’engage à respecter la philosophie de « vue du Cœur. </p>
+                                        <p> Par nos actions, nous voulons, le temps des rencontres, partager, dans un esprit d´ouverture et de tolérance, des vécus différents et apporter ainsi notre modeste contribution à un monde plus fraternel. </p>
+                                        <p> La présente charte est révisable ou modifiable selon l’évolution de l’association. (septembre 2016) </p>
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
-                            
+
                             <!-------------->
-                            
+
                             <div class="block archives 2016 sport" data-cat="2016 sport">
                                 <div class="partie_visible">
                                     <h3 class="titre-secondaire">De Metzeral à Saverne, en toute autonomie et en 8 jours</h3>
                                     <p class="archives_date"> BY CLARISSE · 20 AOÛT 2016 </p>
-                                    <p class="texte_fonce"> Ils sont cinq au départ ce samedi 13 août, 5 mal et non-voyants. Ils s’appellent Samuel, Timothée, Cyprien Nicolas et Clément, il y a aussi…….leurs cannes blanches tout terrain et leur GPS. </p>
+                                    <p> Ils sont cinq au départ ce samedi 13 août, 5 mal et non-voyants. Ils s’appellent Samuel, Timothée, Cyprien Nicolas et Clément, il y a aussi…….leurs cannes blanches tout terrain et leur GPS. </p>
                                 </div>
                                 <div class="block-hidden">
-                                    <p class="texte_fonce"> Sous la houlette de Clément et Nicolas, passés experts en GPS, et coutumiers des longues distances à pied, les voilà partis pour une aventure d’une semaine de Metzeral à Saverne. Distance parcourue environ 230 km, par une météo clémente, presque sur tout le parcours. </p>
-                                    <p class="texte_fonce"> Ils sont autonomes et fiers de l’être : sont partis et revenus en train, et ont assuré la logistique, assuré les pique-nique, selon ce qui se présentait. L’aventure en toute discrétion, seuls les passants rencontrés ne cachent pas leur surprise en voyant une petite colonne de munie de canne blanches. </p>
-                                    <p class="texte_fonce"> Car « Vue du cœur » a eu le privilège de les accompagner, à la condition expresse de se laisser guider ce jeudi 18 août dans l’étape le Hohwald–Otrott. Exceptionnellement pour eux, pas besoin de se soucier du panier repas. Et pour moi, pas besoin de me soucier où et comment on va, je ferme la marche. </p>
-                                    <p class="texte_fonce"> Dans leur guidage, ils sont d’une fiabilité incroyable, incluant certes de la concentration, mais surtout bonne humeur et détente. A en forcer l’admiration de la voyante que je suis et qui a une maîtrise très relative des cartes. </p>
-                                    <p class="texte_fonce"> Valérie, mal-voyante, a été de la partie ce jour-là, elle en a été à sa deuxième sortie longue avec GPS. Et malgré quelques appréhensions, s’est débrouillée comme un chef. Elle se souviendra sûrement de sa grande journée. </p>
-                                    <p class="texte_fonce"> Clément et Nicolas, très motivés, animeront, à partir de la rentrée, des ateliers pour partager et transmettre leur goût de la marche, de la nature, de la débrouillardise aux plus jeunes. </p>
-                                    <p class="texte_fonce"> Mais laissons l’été se finir, nous y reviendrons. </p>
+                                    <p> Sous la houlette de Clément et Nicolas, passés experts en GPS, et coutumiers des longues distances à pied, les voilà partis pour une aventure d’une semaine de Metzeral à Saverne. Distance parcourue environ 230 km, par une météo clémente, presque sur tout le parcours. </p>
+                                    <p> Ils sont autonomes et fiers de l’être : sont partis et revenus en train, et ont assuré la logistique, assuré les pique-nique, selon ce qui se présentait. L’aventure en toute discrétion, seuls les passants rencontrés ne cachent pas leur surprise en voyant une petite colonne de munie de canne blanches. </p>
+                                    <p> Car « Vue du cœur » a eu le privilège de les accompagner, à la condition expresse de se laisser guider ce jeudi 18 août dans l’étape le Hohwald–Otrott. Exceptionnellement pour eux, pas besoin de se soucier du panier repas. Et pour moi, pas besoin de me soucier où et comment on va, je ferme la marche. </p>
+                                    <p> Dans leur guidage, ils sont d’une fiabilité incroyable, incluant certes de la concentration, mais surtout bonne humeur et détente. A en forcer l’admiration de la voyante que je suis et qui a une maîtrise très relative des cartes. </p>
+                                    <p> Valérie, mal-voyante, a été de la partie ce jour-là, elle en a été à sa deuxième sortie longue avec GPS. Et malgré quelques appréhensions, s’est débrouillée comme un chef. Elle se souviendra sûrement de sa grande journée. </p>
+                                    <p> Clément et Nicolas, très motivés, animeront, à partir de la rentrée, des ateliers pour partager et transmettre leur goût de la marche, de la nature, de la débrouillardise aux plus jeunes. </p>
+                                    <p> Mais laissons l’été se finir, nous y reviendrons. </p>
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
-                            
+
                             <!-------------->
-                            
+
                             <div class="block archives 2016 nathan" data-cat="2016 nathan">
                                 <div class="partie_visible">
                                     <h3 class="titre-secondaire">Une rencontre, l’aboutissement d’un beau projet d’année !</h3>
                                     <p class="archives_date"> BY CLARISSE · 3 JUILLET 2016 </p>
-                                    <p class="texte_fonce"> En ce vendredi matin 1 juillet, à l’école élémentaire de Weitbruch, les élèves du CP de Madame Christophe étaient en émoi et bien impatients de voir arriver leurs invités du jour, Caroline, Hamza, et Mathéo. </p>
+                                    <p> En ce vendredi matin 1 juillet, à l’école élémentaire de Weitbruch, les élèves du CP de Madame Christophe étaient en émoi et bien impatients de voir arriver leurs invités du jour, Caroline, Hamza, et Mathéo. </p>
                                 </div>
                                 <div class="block-hidden">
-                                    <p class="texte_fonce"> C’est en effet un projet qui les a occupés et guidés une partie de l’année : faire connaissance des enfants de la classe Louis Braille avec qui ils étaient en contact épistolaire par l’intermédiaire de Nathan. </p>
-                                    <p class="texte_fonce"> Nathan, tout le monde le connaît sur notre site, lui-même élève de cette classe Braille à Neuhof, participait aussi à des ateliers le vendredi après-midi dans la classe de CP de Weitbruch. </p>
-                                    <p class="texte_fonce"> Tout le monde a mis du sien pour pouvoir mener à bien ce projet d’un jour. Et Sabine Christophe, tel un vrai chef d’orchestre, en révélateur de talents a su trouver une place pour chacun dans cette aventure. </p>
-                                    <p class="texte_fonce"> Après un accueil en chantant chaleureux et enthousiasmant, les enfants sont répartis dans des ateliers : de lecture, de travaux manuels et de musique. Les élèves mal et non-voyants participent avec plaisir aux réalisations. </p>
-                                    <p class="texte_fonce"> Sabine a mis en œuvre une histoire africaine qu’elle a illustrée par des bruitages et musique et par la confection d’un panneau tactile qui résume l’histoire. Chaque enfant a confectionné l’instrument de musique du héros principal. </p>
-                                    <p class="texte_fonce"> Même la météo était de la partie pour permettre aux enfants une large pause avec un joyeux pique-nique dans la cour de l’école. </p>
-                                    <p class="texte_fonce"> A 15 heures, le mini-spectacle était prêt : et présenté à la maîtresse de L.Braille, Caroline Drumm et aux adultes présents, bénévoles de « Vue du cœur ». </p>
-                                    <p class="texte_fonce"> Le résultat est convaincant et émouvant : à tour de rôle, chaque enfant lit sa partie et participe musicalement à l’illustration sonore de ce conte qu’ils n’ont découvert que le matin-même. Ils sont heureux et fiers et auront du mal à se quitter. </p>
-                                    <p class="texte_fonce"> Le projet était ambitieux mais fédérateur, et le résultat étonnant, car Madame Christophe a mis en œuvre des compétences communes et complémentaires, entraînés avec ses élèves tout au long de l’année, mais cela prouve que le vivre et le grandir ensemble ne sont pas de vains mots. </p>
-                                    <p class="texte_fonce"> Une bien belle façon de terminer l’année. </p>
-                                    <p class="texte_fonce"> Merci à Nathan d’avoir été le vecteur et grand merci aux maîtresses d’avoir permis à tous de vivre une expérience unique. </p>
-                                    <p class="texte_fonce"> « Vue du cœur » a accompagné le travail et « Vue d’ensemble » l’a soutenu. Merci aux bénévoles pour leur aide et merci à Yves pour sa présence « filmante ». </p>
+                                    <p> C’est en effet un projet qui les a occupés et guidés une partie de l’année : faire connaissance des enfants de la classe Louis Braille avec qui ils étaient en contact épistolaire par l’intermédiaire de Nathan. </p>
+                                    <p> Nathan, tout le monde le connaît sur notre site, lui-même élève de cette classe Braille à Neuhof, participait aussi à des ateliers le vendredi après-midi dans la classe de CP de Weitbruch. </p>
+                                    <p> Tout le monde a mis du sien pour pouvoir mener à bien ce projet d’un jour. Et Sabine Christophe, tel un vrai chef d’orchestre, en révélateur de talents a su trouver une place pour chacun dans cette aventure. </p>
+                                    <p> Après un accueil en chantant chaleureux et enthousiasmant, les enfants sont répartis dans des ateliers : de lecture, de travaux manuels et de musique. Les élèves mal et non-voyants participent avec plaisir aux réalisations. </p>
+                                    <p> Sabine a mis en œuvre une histoire africaine qu’elle a illustrée par des bruitages et musique et par la confection d’un panneau tactile qui résume l’histoire. Chaque enfant a confectionné l’instrument de musique du héros principal. </p>
+                                    <p> Même la météo était de la partie pour permettre aux enfants une large pause avec un joyeux pique-nique dans la cour de l’école. </p>
+                                    <p> A 15 heures, le mini-spectacle était prêt : et présenté à la maîtresse de L.Braille, Caroline Drumm et aux adultes présents, bénévoles de « Vue du cœur ». </p>
+                                    <p> Le résultat est convaincant et émouvant : à tour de rôle, chaque enfant lit sa partie et participe musicalement à l’illustration sonore de ce conte qu’ils n’ont découvert que le matin-même. Ils sont heureux et fiers et auront du mal à se quitter. </p>
+                                    <p> Le projet était ambitieux mais fédérateur, et le résultat étonnant, car Madame Christophe a mis en œuvre des compétences communes et complémentaires, entraînés avec ses élèves tout au long de l’année, mais cela prouve que le vivre et le grandir ensemble ne sont pas de vains mots. </p>
+                                    <p> Une bien belle façon de terminer l’année. </p>
+                                    <p> Merci à Nathan d’avoir été le vecteur et grand merci aux maîtresses d’avoir permis à tous de vivre une expérience unique. </p>
+                                    <p> « Vue du cœur » a accompagné le travail et « Vue d’ensemble » l’a soutenu. Merci aux bénévoles pour leur aide et merci à Yves pour sa présence « filmante ». </p>
                                 </div>
                                 <div class="bouton-jaune"> Lire la suite </div>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
         </main>
